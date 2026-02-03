@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гайд по Будапешту</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Немного кастомной красоты */
+        body { background-color: #f8f9fa; }
+        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 60px 20px; text-align: center; margin-bottom: 30px; }
+        .card-img-top { height: 200px; object-fit: cover; cursor: pointer; }
+        .map-container { height: 400px; width: 100%; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .nav-pills .nav-link.active { background-color: #764ba2; }
+        .nav-pills .nav-link { color: #555; cursor: pointer; }
+        /* Модальное окно для зума фото */
+        .zoom-modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.9); }
+        .zoom-content { margin: auto; display: block; max-width: 90%; max-height: 90vh; margin-top: 5vh; }
+        .close-zoom { position: absolute; top: 15px; right: 35px; color: #f1f1f1; font-size: 40px; font-weight: bold; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>🇭🇺 Будапешт: Гид от локалов</h1>
+        <p class="lead">Еда, вино и скрытые места, которых нет в путеводителях</p>
+    </div>
+
+    <div class="container">
+        
+        <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item"><a class="nav-link active" id="tab-food" data-bs-toggle="pill" data-bs-target="#content-food">🍕 Еда и Кофе</a></li>
+            <li class="nav-item"><a class="nav-link" id="tab-bars" data-bs-toggle="pill" data-bs-target="#content-bars">🍷 Бары и Тусовки</a></li>
+            <li class="nav-item"><a class="nav-link" id="tab-map" data-bs-toggle="pill" data-bs-target="#content-map">🗺 Карта</a></li>
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+
+            <div class="tab-pane fade show active" id="content-food">
+                <div class="row">
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Menza_Restaurant.jpg/640px-Menza_Restaurant.jpg" class="card-img-top zoomable" alt="Menza">
+                            <div class="card-body">
+                                <h5 class="card-title">Menza</h5>
+                                <span class="badge bg-success">Рейтинг 4.8</span> <span class="badge bg-secondary">$$</span>
+                                <p class="card-text mt-2">Ретро-стиль 70-х. Обязательно брать утиную ножку с ризотто.</p>
+                                <a href="https://goo.gl/maps/ВАША_ССЫЛКА" target="_blank" class="btn btn-outline-primary btn-sm w-100">📍 На карте</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://live.staticflickr.com/65535/52672529631_f1b3334237_b.jpg" class="card-img-top zoomable" alt="Кофе">
+                            <div class="card-body">
+                                <h5 class="card-title">Espresso Embassy</h5>
+                                <span class="badge bg-success">Топ кофе</span>
+                                <p class="card-text mt-2">Лучшие круассаны и фильтр. Идеально для работы.</p>
+                                <a href="https://goo.gl/maps/ССЫЛКА" target="_blank" class="btn btn-outline-primary btn-sm w-100">📍 На карте</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="content-bars">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://lh3.googleusercontent.com/p/AF1QipNqW...ВАШЕ_ФОТО" class="card-img-top zoomable" alt="Szimpla">
+                            <div class="card-body">
+                                <h5 class="card-title">Szimpla Kert</h5>
+                                <p class="card-text">Король руин-баров. Приходить строго до 18:00.</p>
+                                <a href="#" class="btn btn-outline-primary btn-sm w-100">📍 На карте</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="content-map">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1Sg...ВАШ_КОД_КАРТЫ" width="100%" height="100%" style="border:0;"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="imgModal" class="zoom-modal">
+        <span class="close-zoom" onclick="closeModal()">&times;</span>
+        <img class="zoom-content" id="img01">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Логика увеличения фото по клику
+        var modal = document.getElementById("imgModal");
+        var modalImg = document.getElementById("img01");
+        var images = document.querySelectorAll(".zoomable");
+        
+        images.forEach(img => {
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+        });
+        function closeModal() { modal.style.display = "none"; }
+        modal.onclick = function(e) { if(e.target !== modalImg) closeModal(); }
+    </script>
+</body>
+</html>
