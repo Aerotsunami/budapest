@@ -164,7 +164,8 @@ function escapeAttr(str) {
 
 async function init() {
   // Map init
-  state.map = L.map("map", { scrollWheelZoom: true }).setView([47.4979, 19.0402], 12); // Budapest center
+  state.map = L.map("map", { scrollWheelZoom: true, attributionControl: false })
+  .setView([47.4979, 19.0402], 12); // Budapest center
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
