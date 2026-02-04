@@ -59,11 +59,6 @@ function applyFilters() {
   });
 
   renderList();
-  const img = p.image
-  ? `<div class="thumbWrap">
-       <img class="thumb" src="${escapeAttr(p.image)}" alt="${escapeAttr(p.image_alt || p.name)}" loading="lazy">
-     </div>`
-  : `<div class="thumbPlaceholder"></div>`;
   renderMarkers();
 }
 
@@ -80,23 +75,30 @@ function renderList() {
       if (e.key === "Enter" || e.key === " ") openPlace(p);
     });
 
+    const img = p.image
+      ? `<div class="thumbWrap">
+           <img class="thumb" src="${escapeAttr(p.image)}" alt="${escapeAttr(p.image_alt || p.name)}" loading="lazy">
+         </div>`
+      : `<div class="thumbPlaceholder"></div>`;
+
     card.innerHTML = `
-  ${img}
-  <div class="cardTop">
-    <div class="badges">
-      <span class="badge">${catLabel(p.category)}</span>
-      <span class="badge">Район ${p.district || "—"}</span>
-      <span class="badge">${p.price || "—"}</span>
-    </div>
-    <span class="badge">★ ${typeof p.rating === "number" ? p.rating.toFixed(1) : "—"}</span>
-  </div>
-  <div class="title">${escapeHtml(p.name)}</div>
-  <p class="desc">${escapeHtml(p.short || "")}</p>
-`;
+      ${img}
+      <div class="cardTop">
+        <div class="badges">
+          <span class="badge">${catLabel(p.category)}</span>
+          <span class="badge">Район ${escapeHtml(p.district || "—")}</span>
+          <span class="badge">${escapeHtml(p.price || "—")}</span>
+        </div>
+        <span class="badge">★ ${typeof p.rating === "number" ? p.rating.toFixed(1) : "—"}</span>
+      </div>
+      <div class="title">${escapeHtml(p.name)}</div>
+      <p class="desc">${escapeHtml(p.short || "")}</p>
+    `;
 
     els.list.appendChild(card);
   }
 }
+
 
 function renderMarkers() {
   // Clear existing layer
