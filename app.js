@@ -167,12 +167,12 @@ async function init() {
   state.map = L.map("map", { scrollWheelZoom: true, attributionControl: false })
   .setView([47.4979, 19.0402], 12); // Budapest center
 
- const tiles = L.tileLayer(
-  "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+const tiles = L.tileLayer(
+  "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
   { maxZoom: 19 }
 ).addTo(state.map);
 
-  L.control.attribution({ prefix: false })
+L.control.attribution({ prefix: false })
   .addTo(state.map)
   .addAttribution("Map data © OpenStreetMap contributors • Tiles © CARTO");
 
