@@ -26,14 +26,23 @@ function catLabel(c) {
 }
 
 function markerIconColor(category) {
-  // простая различимость без внешних иконок: разные circleMarker цвета (по умолчанию Leaflet marker один).
-  // Но Leaflet по умолчанию не поддерживает цвет marker без доп. плагина.
-  // Поэтому используем circleMarker.
   return category === "eat" ? "#7ee787" : category === "drink" ? "#79c0ff" : "#f2cc60";
 }
 
 function normalize(s) {
   return (s || "").toString().trim().toLowerCase();
+}
+
+function escapeHtml(str) {
+  return (str ?? "").toString()
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+function escapeAttr(str) {
+  return escapeHtml(str).replaceAll('"', "&quot;");
 }
 
 function applyFilters() {
@@ -57,6 +66,9 @@ function applyFilters() {
     }
     return true;
   });
+
+  renderList();
+  renderMarkers();
 }
 
 function renderList() {
@@ -96,10 +108,11 @@ function renderList() {
   }
 }
 
-
 function renderMarkers() {
-  // Clear existing layer
-  if (state.layer) state.layer.clearLayers();
+  if (!state.layer) return;
+
+  state.layer.clearLayers();
+  state.markers.clear();
 
   for (const p of state.filtered) {
     if (typeof p.lat !== "number" || typeof p.lng !== "number") continue;
@@ -122,38 +135,46 @@ function renderMarkers() {
 }
 
 function openPlace(p) {
-    console.log("OPEN", p.id, "image=", p.image);
   // center map
-  if (state.map && typeof p.lat === "number") {
+  if (state.map && typeof p.lat === "number" && typeof p.lng === "number") {
     state.map.setView([p.lat, p.lng], Math.max(state.map.getZoom(), 14), { animate: true });
     const marker = state.markers.get(p.id);
     if (marker) marker.openTooltip();
   }
 
-
   const links = p.links || {};
-  const mapsLink = links.maps ? `<a href="${escapeAttr(links.maps)}" target="_blank" rel="noopener">Открыть в Google Maps</a>` : "";
+  const mapsLink = links.maps
+    ? `<a href="${escapeAttr(links.maps)}" target="_blank" rel="noopener">Открыть в Google Maps</a>`
+    : "";
 
+  // Компактная картинка (hero), без inline-js и без огромных размеров
   const img = p.image
-  ? `<img class="modalImg"
-          src="${escapeAttr(p.image)}"
-          alt="${escapeAttr(p.image_alt || p.name)}"
-          loading="lazy"
-          onerror="this.style.display='none'; console.warn('Image failed:', this.src);">`
-  : "";
-  
- els.modalBody.innerHTML = `
-  <div class="modalContent">
-    ${img}
-    <h3 class="modalTitle">${escapeHtml(p.name)}</h3>
-    <p class="modalMeta">
-      ${catLabel(p.category)} · Район ${escapeHtml(p.district || "—")} · ${escapeHtml(p.price || "—")} · ★ ${typeof p.rating === "number" ? p.rating.toFixed(1) : "—"}
-    </p>
-    ${p.notes ? `<p class="modalText">${escapeHtml(p.notes)}</p>` : ""}
-    <div class="modalLinks">${mapsLink}</div>
-  </div>
-`;
-  
+    ? `<div class="modalHero">
+         <img class="modalHeroImg" src="${escapeAttr(p.image)}" alt="${escapeAttr(p.image_alt || p.name)}" loading="lazy">
+       </div>`
+    : "";
+
+  els.modalBody.innerHTML = `
+    <div class="modalContent">
+      ${img}
+      <h3 class="modalTitle">${escapeHtml(p.name)}</h3>
+      <p class="modalMeta">
+        ${catLabel(p.category)} · Район ${escapeHtml(p.district || "—")} · ${escapeHtml(p.price || "—")} · ★ ${typeof p.rating === "number" ? p.rating.toFixed(1) : "—"}
+      </p>
+      ${p.notes ? `<p class="modalText">${escapeHtml(p.notes)}</p>` : ""}
+      <div class="modalLinks">${mapsLink}</div>
+    </div>
+  `;
+
+  // если картинка не грузится — скрываем аккуратно (без CSP-опасных inline обработчиков)
+  const heroImg = els.modalBody.querySelector(".modalHeroImg");
+  if (heroImg) {
+    heroImg.addEventListener("error", () => {
+      const hero = els.modalBody.querySelector(".modalHero");
+      if (hero) hero.remove();
+    }, { once: true });
+  }
+
   els.backdrop.classList.remove("hidden");
   els.modal.showModal();
 }
@@ -163,31 +184,19 @@ function closeModal() {
   els.backdrop.classList.add("hidden");
 }
 
-function escapeHtml(str) {
-  return (str ?? "").toString()
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#039;");
-}
-function escapeAttr(str) {
-  return escapeHtml(str).replaceAll('"', "&quot;");
-}
-
 async function init() {
   // Map init
   state.map = L.map("map", { scrollWheelZoom: true, attributionControl: false })
-  .setView([47.4979, 19.0402], 12); // Budapest center
+    .setView([47.4979, 19.0402], 12);
 
-const tiles = L.tileLayer(
-  "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
-  { maxZoom: 19 }
-).addTo(state.map);
+  L.tileLayer(
+    "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+    { maxZoom: 19 }
+  ).addTo(state.map);
 
-L.control.attribution({ prefix: false })
-  .addTo(state.map)
-  .addAttribution("Map data © OpenStreetMap contributors • Tiles © CARTO");
+  L.control.attribution({ prefix: false })
+    .addTo(state.map)
+    .addAttribution("Map data © OpenStreetMap contributors • Tiles © CARTO");
 
   state.layer = L.layerGroup().addTo(state.map);
 
@@ -196,7 +205,9 @@ L.control.attribution({ prefix: false })
   state.all = await res.json();
 
   // districts options
-  const districts = [...new Set(state.all.map(p => p.district).filter(Boolean))].sort((a,b)=>a.localeCompare(b, "en", { numeric: true }));
+  const districts = [...new Set(state.all.map(p => p.district).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b, "en", { numeric: true }));
+
   for (const d of districts) {
     const opt = document.createElement("option");
     opt.value = d;
@@ -204,14 +215,12 @@ L.control.attribution({ prefix: false })
     els.district.appendChild(opt);
   }
 
-  // wire events
-  ["input", "change"].forEach(evt => {
-    els.q.addEventListener("input", applyFilters);
-    els.category.addEventListener("change", applyFilters);
-    els.district.addEventListener("change", applyFilters);
-    els.price.addEventListener("change", applyFilters);
-    els.minRating.addEventListener("change", applyFilters);
-  });
+  // wire events (без дублей)
+  els.q.addEventListener("input", applyFilters);
+  els.category.addEventListener("change", applyFilters);
+  els.district.addEventListener("change", applyFilters);
+  els.price.addEventListener("change", applyFilters);
+  els.minRating.addEventListener("change", applyFilters);
 
   els.reset.addEventListener("click", () => {
     els.q.value = "";
