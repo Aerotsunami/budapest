@@ -14,22 +14,21 @@
       "maps": "https://www.google.com/maps/search/?api=1&query=Szimpla%20Kert%20Budapest"
     }
   },
-
-{
-  "id": "parliament",
-  "name": "Hungarian Parliament Building",
-  "category": "see",
-  "district": "V",
-  "price": "€",
-  "rating": 4.8,
-  "short": "Одно из самых красивых зданий Европы, особенно вечером.",
-  "notes": "Лучше приходить к закату. Экскурсии внутрь по расписанию.",
-  "lat": 47.5076,
-  "lng": 19.0457,
-  "links": {
-    "maps": "https://www.google.com/maps/search/?api=1&query=Hungarian%20Parliament%20Building"
-  },
-  "image": "images/places/parlament.jpg",
-  "image_alt": "Здание парламента Венгрии на берегу Дуная"
-}
+  {
+    "id": "parliament",
+    "name": "Hungarian Parliament Building",
+    "category": "see",
+    "district": "V",
+    "price": "€",
+    "rating": 4.8,
+    "short": "Одно из самых красивых зданий Европы, особенно вечером.",
+    "notes": "Лучше приходить к закату. Экскурсии внутрь по расписанию.",
+    "lat": 47.5076,
+    "lng": 19.0457,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Hungarian%20Parliament%20Building"
+    },
+    "image": "images/places/parlament.jpg",
+    "image_alt": "Здание парламента Венгрии на берегу Дуная"
+  }
 ]
