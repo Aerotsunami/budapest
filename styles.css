@@ -142,3 +142,21 @@ h2 { margin: 0 0 10px; font-size: 22px; }
   .grid { grid-template-columns: 1fr; }
   .map { height: 420px; }
 }
+
+/* Чтобы select и выпадающее меню читались нормально */
+.control select,
+.control input {
+  color-scheme: dark; /* помогает в современных браузерах */
+}
+
+/* Сам select */
+.control select {
+  background: rgba(255,255,255,0.06);
+  color: var(--text);
+}
+
+/* Пункты выпадающего списка (важно!) */
+.control select option {
+  background: #0f1017;
+  color: var(--text);
+}
