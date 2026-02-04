@@ -120,6 +120,7 @@ function renderMarkers() {
 }
 
 function openPlace(p) {
+    console.log("OPEN", p.id, "image=", p.image);
   // center map
   if (state.map && typeof p.lat === "number") {
     state.map.setView([p.lat, p.lng], Math.max(state.map.getZoom(), 14), { animate: true });
@@ -127,20 +128,30 @@ function openPlace(p) {
     if (marker) marker.openTooltip();
   }
 
+
   const links = p.links || {};
   const mapsLink = links.maps ? `<a href="${escapeAttr(links.maps)}" target="_blank" rel="noopener">Открыть в Google Maps</a>` : "";
 
-  els.modalBody.innerHTML = `
-    <div class="modalContent">
-      <h3 class="modalTitle">${escapeHtml(p.name)}</h3>
-      <p class="modalMeta">
-        ${catLabel(p.category)} · Район ${escapeHtml(p.district || "—")} · ${escapeHtml(p.price || "—")} · ★ ${typeof p.rating === "number" ? p.rating.toFixed(1) : "—"}
-      </p>
-      ${p.notes ? `<p class="modalText">${escapeHtml(p.notes)}</p>` : ""}
-      <div class="modalLinks">${mapsLink}</div>
-    </div>
-  `;
-
+  const img = p.image
+  ? `<img class="modalImg"
+          src="${escapeAttr(p.image)}"
+          alt="${escapeAttr(p.image_alt || p.name)}"
+          loading="lazy"
+          onerror="this.style.display='none'; console.warn('Image failed:', this.src);">`
+  : "";
+  
+ els.modalBody.innerHTML = `
+  <div class="modalContent">
+    ${img}
+    <h3 class="modalTitle">${escapeHtml(p.name)}</h3>
+    <p class="modalMeta">
+      ${catLabel(p.category)} · Район ${escapeHtml(p.district || "—")} · ${escapeHtml(p.price || "—")} · ★ ${typeof p.rating === "number" ? p.rating.toFixed(1) : "—"}
+    </p>
+    ${p.notes ? `<p class="modalText">${escapeHtml(p.notes)}</p>` : ""}
+    <div class="modalLinks">${mapsLink}</div>
+  </div>
+`;
+  
   els.backdrop.classList.remove("hidden");
   els.modal.showModal();
 }
