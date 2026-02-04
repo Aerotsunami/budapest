@@ -57,9 +57,6 @@ function applyFilters() {
     }
     return true;
   });
-
-  renderList();
-  renderMarkers();
 }
 
 function renderList() {
