@@ -158,3 +158,12 @@ h2 { margin: 0 0 10px; font-size: 22px; }
   background: #0f1017;
   color: var(--text);
 }
+
+.modalImg{
+  width:100%;
+  max-height:320px;
+  object-fit:cover;
+  border-radius:14px;
+  margin-bottom:14px;
+  display:block;
+}
