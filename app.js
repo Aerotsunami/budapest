@@ -59,9 +59,7 @@ function applyFilters() {
     if ((p.rating ?? 0) < minRating) return false;
 
     if (q) {
-      const hay = normalize([
-        p.name, p.short, p.notes, p.district, p.price, catLabel(p.category)
-      ].join(" "));
+      const hay = normalize([p.name, p.short, p.notes, p.district, p.price, catLabel(p.category)].join(" "));
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -135,7 +133,6 @@ function renderMarkers() {
 }
 
 function openPlace(p) {
-  // center map
   if (state.map && typeof p.lat === "number" && typeof p.lng === "number") {
     state.map.setView([p.lat, p.lng], Math.max(state.map.getZoom(), 14), { animate: true });
     const marker = state.markers.get(p.id);
@@ -147,10 +144,12 @@ function openPlace(p) {
     ? `<a href="${escapeAttr(links.maps)}" target="_blank" rel="noopener">Открыть в Google Maps</a>`
     : "";
 
-  // Компактная картинка (hero), без inline-js и без огромных размеров
   const img = p.image
     ? `<div class="modalHero">
-         <img class="modalHeroImg" src="${escapeAttr(p.image)}" alt="${escapeAttr(p.image_alt || p.name)}" loading="lazy">
+         <img class="modalHeroImg"
+              src="${escapeAttr(p.image)}"
+              alt="${escapeAttr(p.image_alt || p.name)}"
+              loading="lazy">
        </div>`
     : "";
 
@@ -166,7 +165,7 @@ function openPlace(p) {
     </div>
   `;
 
-  // если картинка не грузится — скрываем аккуратно (без CSP-опасных inline обработчиков)
+  // если картинка не грузится — убираем hero (без inline-js)
   const heroImg = els.modalBody.querySelector(".modalHeroImg");
   if (heroImg) {
     heroImg.addEventListener("error", () => {
@@ -200,14 +199,20 @@ async function init() {
 
   state.layer = L.layerGroup().addTo(state.map);
 
-  // Load data
+  // Load data (с диагностикой)
   const res = await fetch("places.json", { cache: "no-store" });
-  state.all = await res.json();
+  if (!res.ok) throw new Error(`places.json fetch failed: ${res.status} ${res.statusText}`);
+  const text = await res.text();
+  try {
+    state.all = JSON.parse(text);
+  } catch (e) {
+    console.error("places.json is not valid JSON. First 300 chars:", text.slice(0, 300));
+    throw e;
+  }
 
   // districts options
   const districts = [...new Set(state.all.map(p => p.district).filter(Boolean))]
     .sort((a, b) => a.localeCompare(b, "en", { numeric: true }));
-
   for (const d of districts) {
     const opt = document.createElement("option");
     opt.value = d;
@@ -215,7 +220,7 @@ async function init() {
     els.district.appendChild(opt);
   }
 
-  // wire events (без дублей)
+  // wire events
   els.q.addEventListener("input", applyFilters);
   els.category.addEventListener("change", applyFilters);
   els.district.addEventListener("change", applyFilters);
