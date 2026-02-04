@@ -167,3 +167,28 @@ h2 { margin: 0 0 10px; font-size: 22px; }
   margin-bottom:14px;
   display:block;
 }
+
+.thumbWrap{
+  width:100%;
+  height:140px;
+  border-radius:12px;
+  overflow:hidden;
+  margin-bottom:10px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.thumb{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+.thumbPlaceholder{
+  width:100%;
+  height:140px;
+  border-radius:12px;
+  margin-bottom:10px;
+  background: rgba(255,255,255,0.03);
+  border: 1px dashed rgba(255,255,255,0.10);
+}
+
