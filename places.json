@@ -1,0 +1,17 @@
+[
+  {
+    "id": "szimpla-kert",
+    "name": "Szimpla Kert",
+    "category": "drink",
+    "district": "VII",
+    "price": "€€",
+    "rating": 4.4,
+    "short": "Руин-бар, шумно, туристично, но один раз надо.",
+    "notes": "Лучше в будни. В выходные толпа. Пиво ок, коктейли средние.",
+    "lat": 47.4981,
+    "lng": 19.0636,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Szimpla%20Kert%20Budapest"
+    }
+  }
+]
