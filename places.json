@@ -14,7 +14,6 @@
       "maps": "https://www.google.com/maps/search/?api=1&query=Szimpla%20Kert%20Budapest"
     }
   }
-]
 
 {
   "id": "parliament",
@@ -33,3 +32,4 @@
   "image": "images/places/parliament.jpg",
   "image_alt": "Здание парламента Венгрии на берегу Дуная"
 }
+]
