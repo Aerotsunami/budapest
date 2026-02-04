@@ -1,3 +1,7 @@
+html {
+  color-scheme: dark;
+}
+
 :root {
   --bg: #0b0c10;
   --panel: #12131a;
@@ -141,12 +145,6 @@ h2 { margin: 0 0 10px; font-size: 22px; }
   .controls { grid-template-columns: 1fr; }
   .grid { grid-template-columns: 1fr; }
   .map { height: 420px; }
-}
-
-/* Чтобы select и выпадающее меню читались нормально */
-.control select,
-.control input {
-  color-scheme: dark; /* помогает в современных браузерах */
 }
 
 /* Сам select */
