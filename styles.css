@@ -13,13 +13,16 @@ html {
 }
 
 * { box-sizing: border-box; }
+
 body {
   margin: 0;
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
   background: radial-gradient(1200px 600px at 30% 0%, #161826 0%, var(--bg) 60%);
   color: var(--text);
 }
+
 .wrap { max-width: 1100px; margin: 0 auto; padding: 18px; }
+
 h1 { margin: 16px 0 8px; font-size: 34px; letter-spacing: -0.02em; }
 h2 { margin: 0 0 10px; font-size: 22px; }
 .sub { margin: 0 0 16px; color: var(--muted); line-height: 1.5; }
@@ -39,8 +42,11 @@ h2 { margin: 0 0 10px; font-size: 22px; }
   gap: 10px;
   align-items: end;
 }
+
 .control label { display: block; font-size: 12px; color: var(--muted); margin: 0 0 6px; }
-.control input, .control select {
+
+.control input,
+.control select {
   width: 100%;
   padding: 10px 10px;
   border-radius: 10px;
@@ -49,6 +55,19 @@ h2 { margin: 0 0 10px; font-size: 22px; }
   color: var(--text);
   outline: none;
 }
+
+/* Сам select */
+.control select {
+  background: rgba(255,255,255,0.06);
+  color: var(--text);
+}
+
+/* Пункты выпадающего списка (важно!) */
+.control select option {
+  background: #0f1017;
+  color: var(--text);
+}
+
 .btn {
   padding: 10px 12px;
   border-radius: 10px;
@@ -71,7 +90,10 @@ h2 { margin: 0 0 10px; font-size: 22px; }
 
 .catalog { margin: 18px 0 40px; }
 .catalogHeader {
-  display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
 }
 .count { color: var(--muted); font-size: 13px; }
 
@@ -81,6 +103,7 @@ h2 { margin: 0 0 10px; font-size: 22px; }
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
 }
+
 .card {
   background: var(--panel);
   border: 1px solid var(--border);
@@ -91,8 +114,10 @@ h2 { margin: 0 0 10px; font-size: 22px; }
   transition: transform 120ms ease;
 }
 .card:hover { transform: translateY(-2px); }
+
 .cardTop { display: flex; justify-content: space-between; gap: 10px; }
 .badges { display: flex; gap: 6px; flex-wrap: wrap; }
+
 .badge {
   font-size: 12px;
   padding: 4px 8px;
@@ -101,73 +126,20 @@ h2 { margin: 0 0 10px; font-size: 22px; }
   color: var(--muted);
   background: rgba(255,255,255,0.03);
 }
+
 .title { font-weight: 650; margin: 8px 0 6px; }
 .desc { color: var(--muted); font-size: 13px; line-height: 1.35; margin: 0; }
-.small { font-size: 12px; color: var(--muted); margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap; }
 
-.backdrop {
-  position: fixed; inset: 0;
-  background: rgba(0,0,0,0.55);
-}
-.hidden { display: none; }
-
-.modal {
-  width: min(720px, calc(100% - 22px));
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  background: #0f1017;
-  color: var(--text);
-  box-shadow: var(--shadow);
-  padding: 0;
-}
-.modal::backdrop { background: transparent; }
-.modalClose {
-  position: absolute; right: 12px; top: 10px;
-  border: 1px solid var(--border);
-  background: rgba(255,255,255,0.06);
-  color: var(--text);
-  border-radius: 10px;
-  padding: 8px 10px;
-  cursor: pointer;
-}
-.modalContent { padding: 18px; }
-.modalTitle { font-size: 22px; margin: 0 0 6px; }
-.modalMeta { color: var(--muted); font-size: 13px; margin: 0 0 14px; }
-.modalText { color: var(--text); opacity: 0.95; line-height: 1.55; margin: 0 0 14px; }
-.modalLinks a { color: var(--text); opacity: 0.9; }
-.modalLinks a:hover { opacity: 1; }
-
-@media (max-width: 980px) {
-  .controls { grid-template-columns: 1fr 1fr 1fr; }
-  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
-@media (max-width: 560px) {
-  .controls { grid-template-columns: 1fr; }
-  .grid { grid-template-columns: 1fr; }
-  .map { height: 420px; }
+.small {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
-/* Сам select */
-.control select {
-  background: rgba(255,255,255,0.06);
-  color: var(--text);
-}
-
-/* Пункты выпадающего списка (важно!) */
-.control select option {
-  background: #0f1017;
-  color: var(--text);
-}
-
-.modalImg{
-  width:100%;
-  max-height:320px;
-  object-fit:cover;
-  border-radius:14px;
-  margin-bottom:14px;
-  display:block;
-}
-
+/* thumbs */
 .thumbWrap{
   width:100%;
   height:140px;
@@ -192,3 +164,76 @@ h2 { margin: 0 0 10px; font-size: 22px; }
   border: 1px dashed rgba(255,255,255,0.10);
 }
 
+/* modal */
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+}
+.hidden { display: none; }
+
+.modal {
+  width: min(720px, calc(100% - 22px));
+  max-height: min(80vh, 720px);
+  overflow: auto;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: #0f1017;
+  color: var(--text);
+  box-shadow: var(--shadow);
+  padding: 0;
+}
+.modal::backdrop { background: transparent; }
+
+.modalClose {
+  position: sticky;
+  top: 10px;
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.06);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+.modalClose:hover { background: rgba(255,255,255,0.10); }
+
+.modalContent { padding: 18px; }
+
+.modalTitle { font-size: 22px; margin: 0 0 6px; }
+.modalMeta { color: var(--muted); font-size: 13px; margin: 0 0 14px; }
+.modalText { color: var(--text); opacity: 0.95; line-height: 1.55; margin: 0 0 14px; }
+
+.modalLinks a { color: var(--text); opacity: 0.9; }
+.modalLinks a:hover { opacity: 1; }
+
+/* compact hero image in modal (matches app.js) */
+.modalHero{
+  width:100%;
+  height:220px;
+  border-radius:14px;
+  overflow:hidden;
+  margin-bottom:14px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+}
+.modalHeroImg{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+
+@media (max-width: 980px) {
+  .controls { grid-template-columns: 1fr 1fr 1fr; }
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .controls { grid-template-columns: 1fr; }
+  .grid { grid-template-columns: 1fr; }
+  .map { height: 420px; }
+  .modalHero{ height: 190px; }
+}
