@@ -2,31 +2,26 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Budapest Guide</title>
 
-  <link rel="stylesheet" href="styles.css" />
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin=""
-  />
-</head>
-<body>
-  <header class="wrap">
-    <h1>Будапешт: мой гайд</h1>
-    <p class="sub">
-      Привет, меня зовут Костя и я жил по визе Digital Nomad в Будапеште 2 года. За эти два года у меня накопилось множество мест, где можно вкусно поесть и выпить, откуда открываются прекрасные виды и где лучше смотреть закаты. Я сделал этот небольшой pet-проект, чтобы поделиться с вами этими чудесными местами.
-    </p>
-  </header>
+  <link rel="stylesheet" href="styles.css?v=1" />
 
-  <main class="wrap">
+  <!-- Leaflet (обязательно ДО app.js) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>Budapest — интерактивный гайд</h1>
+    <p class="sub">Личный список мест: поесть, попить, посмотреть. Фильтры, карта и карточки.</p>
+
     <section class="panel">
       <div class="controls">
         <div class="control">
           <label for="q">Поиск</label>
-          <input id="q" type="search" placeholder="Например: ramen, VII, коктейли…" />
+          <input id="q" type="text" placeholder="Например: ramen, VII, коктейли..." />
         </div>
 
         <div class="control">
@@ -60,46 +55,40 @@
           <label for="minRating">Рейтинг от</label>
           <select id="minRating">
             <option value="0">0</option>
-            <option value="3">3</option>
             <option value="3.5">3.5</option>
             <option value="4" selected>4</option>
             <option value="4.5">4.5</option>
           </select>
         </div>
 
-        <button id="reset" class="btn">Сброс</button>
+        <button class="btn" id="reset" type="button">Сброс</button>
       </div>
     </section>
 
     <section class="mapBlock">
       <h2>Карта</h2>
       <div id="map" class="map"></div>
-      <p class="hint">
-        Клик по маркеру открывает попап. Можно искать и фильтровать — каталог ниже синхронизирован.
-      </p>
+      <p class="hint">Клик по маркеру или карточке открывает модалку. Каталог ниже синхронизирован с фильтрами.</p>
     </section>
 
     <section class="catalog">
       <div class="catalogHeader">
         <h2>Каталог</h2>
-        <div id="count" class="count"></div>
+        <div id="count" class="count">0 мест</div>
       </div>
       <div id="list" class="grid"></div>
     </section>
-  </main>
+  </div>
 
-  <!-- Modal -->
-  <div id="modalBackdrop" class="backdrop hidden" aria-hidden="true"></div>
+  <!-- Backdrop + Modal -->
+  <div id="modalBackdrop" class="backdrop hidden"></div>
+
   <dialog id="modal" class="modal">
-    <button id="closeModal" class="modalClose" aria-label="Закрыть">✕</button>
+    <button id="closeModal" class="modalClose" type="button">✕</button>
     <div id="modalBody"></div>
   </dialog>
 
-  <script
-    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""
-  ></script>
-  <script src="app.js"></script>
+  <!-- app.js: ОДИН раз, с defer -->
+  <script src="app.js?v=1" defer></script>
 </body>
 </html>
