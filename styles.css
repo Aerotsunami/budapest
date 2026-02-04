@@ -173,6 +173,7 @@ h2 { margin: 0 0 10px; font-size: 22px; }
 .hidden { display: none; }
 
 .modal {
+  position: relative;
   width: min(720px, calc(100% - 22px));
   max-height: min(80vh, 720px);
   overflow: auto;
@@ -185,13 +186,12 @@ h2 { margin: 0 0 10px; font-size: 22px; }
 }
 .modal::backdrop { background: transparent; }
 
-.modalClose {
-  position: sticky;
-  top: 10px;
-  margin-left: auto;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+.modalClose{
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  z-index: 5;
+
   border: 1px solid var(--border);
   background: rgba(255,255,255,0.06);
   color: var(--text);
@@ -200,6 +200,7 @@ h2 { margin: 0 0 10px; font-size: 22px; }
   cursor: pointer;
 }
 .modalClose:hover { background: rgba(255,255,255,0.10); }
+}
 
 .modalContent { padding: 18px; }
 
