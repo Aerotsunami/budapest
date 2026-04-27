@@ -63,7 +63,8 @@ function applyFilters() {
     if (category && p.category !== category) return false;
     if (district && p.district !== district) return false;
     if (price && p.price !== price) return false;
-    if ((p.rating ?? 0) < minRating) return false;
+    const hasNumericRating = typeof p.rating === "number" && Number.isFinite(p.rating);
+    if (hasNumericRating && p.rating < minRating) return false;
 
     if (q) {
       const hay = normalize([p.name, p.short, p.notes, p.district, p.price, catLabel(p.category)].join(" "));
@@ -241,7 +242,7 @@ async function init() {
     els.category.value = "";
     els.district.value = "";
     els.price.value = "";
-    els.minRating.value = "4";
+    els.minRating.value = "0";
     applyFilters();
   });
 
