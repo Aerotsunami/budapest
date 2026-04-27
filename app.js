@@ -52,6 +52,12 @@ function getCoords(place) {
   return [lat, lng];
 }
 
+function getNumericRating(place) {
+  if (typeof place.rating === "number" && Number.isFinite(place.rating)) return place.rating;
+  const parsed = Number(place.rating);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
 function applyFilters() {
   const q = normalize(els.q.value);
   const category = els.category.value;
@@ -63,7 +69,8 @@ function applyFilters() {
     if (category && p.category !== category) return false;
     if (district && p.district !== district) return false;
     if (price && p.price !== price) return false;
-    if ((p.rating ?? 0) < minRating) return false;
+    const numericRating = getNumericRating(p);
+    if (numericRating !== null && numericRating < minRating) return false;
 
     if (q) {
       const hay = normalize([p.name, p.short, p.notes, p.district, p.price, catLabel(p.category)].join(" "));
@@ -81,6 +88,7 @@ function renderList() {
   els.count.textContent = `${state.filtered.length} мест`;
 
   for (const p of state.filtered) {
+    const numericRating = getNumericRating(p);
     const card = document.createElement("article");
     card.className = "card";
     card.tabIndex = 0;
@@ -103,7 +111,7 @@ function renderList() {
           <span class="badge">Район ${escapeHtml(p.district || "—")}</span>
           <span class="badge">${escapeHtml(p.price || "—")}</span>
         </div>
-        <span class="badge">★ ${typeof p.rating === "number" ? p.rating.toFixed(1) : "—"}</span>
+        <span class="badge">★ ${numericRating !== null ? numericRating.toFixed(1) : "—"}</span>
       </div>
       <div class="title">${escapeHtml(p.name)}</div>
       <p class="desc">${escapeHtml(p.short || "")}</p>
@@ -141,6 +149,7 @@ function renderMarkers() {
 }
 
 function openPlace(p) {
+  const numericRating = getNumericRating(p);
   const coords = getCoords(p);
   if (state.map && coords) {
     state.map.setView(coords, Math.max(state.map.getZoom(), 14), { animate: true });
@@ -167,7 +176,7 @@ function openPlace(p) {
       ${img}
       <h3 class="modalTitle">${escapeHtml(p.name)}</h3>
       <p class="modalMeta">
-        ${catLabel(p.category)} · Район ${escapeHtml(p.district || "—")} · ${escapeHtml(p.price || "—")} · ★ ${typeof p.rating === "number" ? p.rating.toFixed(1) : "—"}
+        ${catLabel(p.category)} · Район ${escapeHtml(p.district || "—")} · ${escapeHtml(p.price || "—")} · ★ ${numericRating !== null ? numericRating.toFixed(1) : "—"}
       </p>
       ${p.notes ? `<p class="modalText">${escapeHtml(p.notes)}</p>` : ""}
       <div class="modalLinks">${mapsLink}</div>
@@ -212,11 +221,26 @@ async function init() {
   const res = await fetch("places.json", { cache: "no-store" });
   if (!res.ok) throw new Error(`places.json fetch failed: ${res.status} ${res.statusText}`);
   const text = await res.text();
+  let parsedData;
   try {
-    state.all = JSON.parse(text);
+    parsedData = JSON.parse(text);
   } catch (e) {
     console.error("places.json is not valid JSON. First 300 chars:", text.slice(0, 300));
     throw e;
+  }
+  state.all = Array.isArray(parsedData)
+    ? parsedData
+    : Array.isArray(parsedData?.places)
+      ? parsedData.places
+      : [];
+  if (!Array.isArray(state.all) || state.all.length === 0) {
+    throw new Error("places.json has unsupported format: expected array or { places: [...] }");
+  }
+
+  // Если рейтинг не задан ни у одного места, не скрываем всё дефолтным порогом.
+  const hasAnyNumericRating = state.all.some(p => getNumericRating(p) !== null);
+  if (!hasAnyNumericRating) {
+    els.minRating.value = "0";
   }
 
   // districts options
@@ -241,7 +265,7 @@ async function init() {
     els.category.value = "";
     els.district.value = "";
     els.price.value = "";
-    els.minRating.value = "4";
+    els.minRating.value = "0";
     applyFilters();
   });
 
