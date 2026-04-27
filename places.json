@@ -1,34 +1,1337 @@
 [
   {
+    "id": "cezar-etterem-ristorante-italiano-tengeri-halkulonlegessegek",
+    "name": "Cézár Étterem - Ristorante Italiano - Tengeri halkülönlegességek",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=C%C3%A9z%C3%A1r%20%C3%89tterem%20-%20Ristorante%20Italiano%20-%20Tengeri%20halk%C3%BCl%C3%B6nlegess%C3%A9gek%20Budapest"
+    }
+  },
+  {
+    "id": "hacky-s-mexikoi-etterem-gasztropub",
+    "name": "Hacky's Mexikói Étterem & GasztroPub",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Hacky%27s%20Mexik%C3%B3i%20%C3%89tterem%20%26%20GasztroPub%20Budapest"
+    }
+  },
+  {
+    "id": "tabani-gosser-etterem",
+    "name": "Tabáni Gösser Étterem",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Tab%C3%A1ni%20G%C3%B6sser%20%C3%89tterem%20Budapest"
+    }
+  },
+  {
+    "id": "habozo",
+    "name": "Habozó",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.5001,
+    "lng": 19.0638,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Haboz%C3%B3%20Budapest"
+    }
+  },
+  {
+    "id": "the-magic-budapest",
+    "name": "The MAGIC Budapest",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.4979,
+    "lng": 19.062,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=The%20MAGIC%20Budapest%20Budapest"
+    }
+  },
+  {
+    "id": "culinaris-parlament",
+    "name": "Culinaris Parlament",
+    "category": "shop",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Магазин или гастрономическая лавка.",
+    "notes": "Проверить актуальный адрес и часы работы.",
+    "lat": 47.503,
+    "lng": 19.0487,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Culinaris%20Parlament%20Budapest"
+    }
+  },
+  {
+    "id": "herbahaz-oktogon",
+    "name": "Herbaház - Oktogon",
+    "category": "shop",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Магазин или гастрономическая лавка.",
+    "notes": "Проверить актуальный адрес и часы работы.",
+    "lat": 47.5052,
+    "lng": 19.063,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Herbah%C3%A1z%20-%20Oktogon%20Budapest"
+    }
+  },
+  {
     "id": "szimpla-kert",
     "name": "Szimpla Kert",
     "category": "drink",
-    "district": "VII",
-    "price": "€€",
-    "rating": 4.4,
-    "short": "Руин-бар, шумно, туристично, но один раз надо.",
-    "notes": "Лучше в будни. В выходные толпа. Пиво ок, коктейли средние.",
-    "lat": 47.4981,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.497,
     "lng": 19.0636,
     "links": {
       "maps": "https://www.google.com/maps/search/?api=1&query=Szimpla%20Kert%20Budapest"
     }
   },
   {
-    "id": "parliament",
-    "name": "Hungarian Parliament Building",
+    "id": "hungarian-natural-history-museum",
+    "name": "Hungarian Natural History Museum",
     "category": "see",
-    "district": "V",
-    "price": "€",
-    "rating": 4.8,
-    "short": "Одно из самых красивых зданий Европы, особенно вечером.",
-    "notes": "Лучше приходить к закату. Экскурсии внутрь по расписанию.",
-    "lat": 47.5076,
-    "lng": 19.0457,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место, которое стоит посмотреть.",
+    "notes": "Лучше заранее проверить часы работы и билеты.",
+    "lat": 47.4819,
+    "lng": 19.0833,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Hungarian%20Parliament%20Building"
-    },
-    "image": "images/places/parlament.jpg",
-    "image_alt": "Здание парламента Венгрии на берегу Дуная"
+      "maps": "https://www.google.com/maps/search/?api=1&query=Hungarian%20Natural%20History%20Museum%20Budapest"
+    }
+  },
+  {
+    "id": "corvin-kavezo",
+    "name": "Corvin kávézó",
+    "category": "coffee",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Кофе, завтрак или спокойная остановка в городе.",
+    "notes": "Подходит для короткой остановки, кофе или завтрака.",
+    "lat": 47.4852,
+    "lng": 19.0702,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Corvin%20k%C3%A1v%C3%A9z%C3%B3%20Budapest"
+    }
+  },
+  {
+    "id": "bajor-sor-haz-hb-traunstein-beer-house-budapest",
+    "name": "Bajor Sör-Ház - HB Traunstein Beer House Budapest",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Bajor%20S%C3%B6r-H%C3%A1z%20-%20HB%20Traunstein%20Beer%20House%20Budapest%20Budapest"
+    }
+  },
+  {
+    "id": "pivo-sorozo-es-sorbolt",
+    "name": "PIVO söröző és sörbolt",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.5105,
+    "lng": 19.0662,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=PIVO%20s%C3%B6r%C3%B6z%C5%91%20%C3%A9s%20s%C3%B6rbolt%20Budapest"
+    }
+  },
+  {
+    "id": "a-kulonc-the-eccentric-pub",
+    "name": "A különc - The eccentric pub",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.4987,
+    "lng": 19.0641,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=A%20k%C3%BCl%C3%B6nc%20-%20The%20eccentric%20pub%20Budapest"
+    }
+  },
+  {
+    "id": "mixat",
+    "name": "Mixát",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.4959,
+    "lng": 19.0605,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Mix%C3%A1t%20Budapest"
+    }
+  },
+  {
+    "id": "under-the-table",
+    "name": "Under The Table",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Under%20The%20Table%20Budapest"
+    }
+  },
+  {
+    "id": "jaromir-68-sorpince",
+    "name": "Jaromír 68 Sörpince",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.5058,
+    "lng": 19.0675,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Jarom%C3%ADr%2068%20S%C3%B6rpince%20Budapest"
+    }
+  },
+  {
+    "id": "beer-people-bar-and-specialty-beer-store",
+    "name": "Beer People - Bar and Specialty Beer Store",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.4983,
+    "lng": 19.0632,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Beer%20People%20-%20Bar%20and%20Specialty%20Beer%20Store%20Budapest"
+    }
+  },
+  {
+    "id": "beef-bone",
+    "name": "Beef & Bone",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.5012,
+    "lng": 19.0557,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Beef%20%26%20Bone%20Budapest"
+    }
+  },
+  {
+    "id": "barrio",
+    "name": "BARRIO",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=BARRIO%20Budapest"
+    }
+  },
+  {
+    "id": "zenta-kraft-by-etyeki",
+    "name": "Zenta Kraft by Etyeki",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.472,
+    "lng": 19.0401,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Zenta%20Kraft%20by%20Etyeki%20Budapest"
+    }
+  },
+  {
+    "id": "otthonka",
+    "name": "Otthonka",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.4928,
+    "lng": 19.0623,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Otthonka%20Budapest"
+    }
+  },
+  {
+    "id": "zileat-brunch-bistro-budapest",
+    "name": "Zileat Brunch & Bistro Budapest",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Zileat%20Brunch%20%26%20Bistro%20Budapest%20Budapest"
+    }
+  },
+  {
+    "id": "vatoz",
+    "name": "Vatoz",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4885,
+    "lng": 19.0801,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Vatoz%20Budapest"
+    }
+  },
+  {
+    "id": "blue-tomato",
+    "name": "Blue Tomato",
+    "category": "shop",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Магазин или гастрономическая лавка.",
+    "notes": "Проверить актуальный адрес и часы работы.",
+    "lat": 47.5101,
+    "lng": 19.0639,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Blue%20Tomato%20Budapest"
+    }
+  },
+  {
+    "id": "ya-mart",
+    "name": "Yá Mart",
+    "category": "shop",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Магазин или гастрономическая лавка.",
+    "notes": "Проверить актуальный адрес и часы работы.",
+    "lat": 47.5049,
+    "lng": 19.0672,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Y%C3%A1%20Mart%20Budapest"
+    }
+  },
+  {
+    "id": "rizmajer-beerhouse",
+    "name": "Rizmajer Beerhouse",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.4707,
+    "lng": 19.0335,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Rizmajer%20Beerhouse%20Budapest"
+    }
+  },
+  {
+    "id": "94-konyha-bar",
+    "name": "94' konyha & bar",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=94%27%20konyha%20%26%20bar%20Budapest"
+    }
+  },
+  {
+    "id": "keg-sormuvhaz",
+    "name": "KEG sörművház",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.5104,
+    "lng": 19.0573,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=KEG%20s%C3%B6rm%C5%B1vh%C3%A1z%20Budapest"
+    }
+  },
+  {
+    "id": "csakajosor-kft",
+    "name": "Csakajósör Kft.",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.5037,
+    "lng": 19.067,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Csakaj%C3%B3s%C3%B6r%20Kft.%20Budapest"
+    }
+  },
+  {
+    "id": "marlou-wine-bar-store",
+    "name": "Marlou wine bar & store",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Marlou%20wine%20bar%20%26%20store%20Budapest"
+    }
+  },
+  {
+    "id": "ruin-brew-brunch-beer",
+    "name": "Ruin Brew: Brunch & Beer",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Ruin%20Brew%3A%20Brunch%20%26%20Beer%20Budapest"
+    }
+  },
+  {
+    "id": "anjuna-ice-pops",
+    "name": "Anjuna Ice Pops",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Anjuna%20Ice%20Pops%20Budapest"
+    }
+  },
+  {
+    "id": "crudo-pizza",
+    "name": "CRUDO PIZZA",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4971,
+    "lng": 19.0587,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=CRUDO%20PIZZA%20Budapest"
+    }
+  },
+  {
+    "id": "mazi-greek-kitchen",
+    "name": "Mazi Greek Kitchen",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Mazi%20Greek%20Kitchen%20Budapest"
+    }
+  },
+  {
+    "id": "grease-monkey-budapest",
+    "name": "Grease Monkey Budapest",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Grease%20Monkey%20Budapest%20Budapest"
+    }
+  },
+  {
+    "id": "passata",
+    "name": "Passata",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Passata%20Budapest"
+    }
+  },
+  {
+    "id": "edy-s-french-tacos",
+    "name": "Edy's French Tacos",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Edy%27s%20French%20Tacos%20Budapest"
+    }
+  },
+  {
+    "id": "ukrainian-courtyard",
+    "name": "Ukrainian courtyard",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Ukrainian%20courtyard%20Budapest"
+    }
+  },
+  {
+    "id": "port-beer-food",
+    "name": "PORT beer&food",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=PORT%20beer%26food%20Budapest"
+    }
+  },
+  {
+    "id": "tati-farm-to-table",
+    "name": "TATI Farm to Table",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4978,
+    "lng": 19.055,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=TATI%20Farm%20to%20Table%20Budapest"
+    }
+  },
+  {
+    "id": "the-garden-cafe",
+    "name": "The Garden Café",
+    "category": "coffee",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Кофе, завтрак или спокойная остановка в городе.",
+    "notes": "Подходит для короткой остановки, кофе или завтрака.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=The%20Garden%20Caf%C3%A9%20Budapest"
+    }
+  },
+  {
+    "id": "red-ruin",
+    "name": "Red Ruin",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.4955,
+    "lng": 19.0633,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Red%20Ruin%20Budapest"
+    }
+  },
+  {
+    "id": "kicsi-japan",
+    "name": "Kicsi Japán",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4977,
+    "lng": 19.0587,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Kicsi%20Jap%C3%A1n%20Budapest"
+    }
+  },
+  {
+    "id": "gelarto-rosa-grande",
+    "name": "Gelarto Rosa Grande",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Gelarto%20Rosa%20Grande%20Budapest"
+    }
+  },
+  {
+    "id": "gelarto-rosa",
+    "name": "Gelarto Rosa",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.5009,
+    "lng": 19.0543,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Gelarto%20Rosa%20Budapest"
+    }
+  },
+  {
+    "id": "gelateria-pichler-fagyizo",
+    "name": "Gelateria Pichler Fagyizó",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.497,
+    "lng": 19.0605,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Gelateria%20Pichler%20Fagyiz%C3%B3%20Budapest"
+    }
+  },
+  {
+    "id": "manu",
+    "name": "MANU+",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4971,
+    "lng": 19.0559,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=MANU%2B%20Budapest"
+    }
+  },
+  {
+    "id": "casa-mexa",
+    "name": "Casa Mexa",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Casa%20Mexa%20Budapest"
+    }
+  },
+  {
+    "id": "papitos-mexican-street-food-madach",
+    "name": "Papitos Mexican Street Food - Madách",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4976,
+    "lng": 19.0612,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Papitos%20Mexican%20Street%20Food%20-%20Mad%C3%A1ch%20Budapest"
+    }
+  },
+  {
+    "id": "dentist-for-you",
+    "name": "Dentist For You",
+    "category": "service",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Сервисная точка из сохранённого списка.",
+    "notes": "Проверить актуальность в Google Maps перед визитом.",
+    "lat": 47.4795,
+    "lng": 19.0831,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Dentist%20For%20You%20Budapest"
+    }
+  },
+  {
+    "id": "pasta",
+    "name": "PASTA.",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4947,
+    "lng": 19.0609,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=PASTA.%20Budapest"
+    }
+  },
+  {
+    "id": "grumpy-food-bar-coffee",
+    "name": "Grumpy Food Bar Coffee",
+    "category": "coffee",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Кофе, завтрак или спокойная остановка в городе.",
+    "notes": "Подходит для короткой остановки, кофе или завтрака.",
+    "lat": 47.498,
+    "lng": 19.0572,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Grumpy%20Food%20Bar%20Coffee%20Budapest"
+    }
+  },
+  {
+    "id": "forever-young",
+    "name": "Forever Young. Вечно молодой",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Forever%20Young.%20%D0%92%D0%B5%D1%87%D0%BD%D0%BE%20%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D0%BE%D0%B9%20Budapest"
+    }
+  },
+  {
+    "id": "pho-astoria-bistro",
+    "name": "Pho-Astoria Bistro",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4949,
+    "lng": 19.0602,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Pho-Astoria%20Bistro%20Budapest"
+    }
+  },
+  {
+    "id": "bangkok-thai-etterem",
+    "name": "Bangkok Thai Étterem",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4982,
+    "lng": 19.0611,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Bangkok%20Thai%20%C3%89tterem%20Budapest"
+    }
+  },
+  {
+    "id": "la-boutique-by-meinhart-vdr-hungary",
+    "name": "La Boutique By Meinhart & VDR Hungary",
+    "category": "shop",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Магазин или гастрономическая лавка.",
+    "notes": "Проверить актуальный адрес и часы работы.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=La%20Boutique%20By%20Meinhart%20%26%20VDR%20Hungary%20Budapest"
+    }
+  },
+  {
+    "id": "cintanyeros",
+    "name": "Cintányéros",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4973,
+    "lng": 19.0638,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Cint%C3%A1ny%C3%A9ros%20Budapest"
+    }
+  },
+  {
+    "id": "bistrology-budapest",
+    "name": "Bistrology Budapest",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.5032,
+    "lng": 19.0545,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Bistrology%20Budapest%20Budapest"
+    }
+  },
+  {
+    "id": "ruby-etterem-sushi-and-asian-food",
+    "name": "Ruby Étterem (sushi and Asian food)",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Ruby%20%C3%89tterem%20%28sushi%20and%20Asian%20food%29%20Budapest"
+    }
+  },
+  {
+    "id": "hiyoriya-japanese-grocery-shop",
+    "name": "HIYORIYA - Japanese Grocery Shop",
+    "category": "shop",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Магазин или гастрономическая лавка.",
+    "notes": "Проверить актуальный адрес и часы работы.",
+    "lat": 47.4953,
+    "lng": 19.0615,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=HIYORIYA%20-%20Japanese%20Grocery%20Shop%20Budapest"
+    }
+  },
+  {
+    "id": "vivina-s-cafe-roastery-coffee-brunch-and-more",
+    "name": "VIVINA'S Café & Roastery - coffee, brunch and more",
+    "category": "coffee",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Кофе, завтрак или спокойная остановка в городе.",
+    "notes": "Подходит для короткой остановки, кофе или завтрака.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=VIVINA%27S%20Caf%C3%A9%20%26%20Roastery%20-%20coffee%2C%20brunch%20and%20more%20Budapest"
+    }
+  },
+  {
+    "id": "aranypinty",
+    "name": "Aranypinty",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.501,
+    "lng": 19.0526,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Aranypinty%20Budapest"
+    }
+  },
+  {
+    "id": "pizza-manufaktura",
+    "name": "Pizza Manufaktúra",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4971,
+    "lng": 19.0622,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Pizza%20Manufakt%C3%BAra%20Budapest"
+    }
+  },
+  {
+    "id": "bambuszliget-japan-etterem-sushi-bar",
+    "name": "Bambuszliget Japán Étterem & Sushi Bár",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4927,
+    "lng": 19.0583,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Bambuszliget%20Jap%C3%A1n%20%C3%89tterem%20%26%20Sushi%20B%C3%A1r%20Budapest"
+    }
+  },
+  {
+    "id": "beerstro14-steak-house-restaurant",
+    "name": "Beerstro14 Steak House Restaurant",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.5058,
+    "lng": 19.0643,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Beerstro14%20Steak%20House%20Restaurant%20Budapest"
+    }
+  },
+  {
+    "id": "crafty-bar",
+    "name": "Crafty Bar",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.4979,
+    "lng": 19.0548,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Crafty%20Bar%20Budapest"
+    }
+  },
+  {
+    "id": "oriental-soup-house-szervita-ter",
+    "name": "Oriental Soup House Szervita tér",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4946,
+    "lng": 19.0529,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Oriental%20Soup%20House%20Szervita%20t%C3%A9r%20Budapest"
+    }
+  },
+  {
+    "id": "biang-bisztro-vamhaz-krt",
+    "name": "Biang Bisztró - Vámház krt.",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4938,
+    "lng": 19.0581,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Biang%20Bisztr%C3%B3%20-%20V%C3%A1mh%C3%A1z%20krt.%20Budapest"
+    }
+  },
+  {
+    "id": "bio-egeszseg-biobolt",
+    "name": "Bio Egészség Biobolt",
+    "category": "shop",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Магазин или гастрономическая лавка.",
+    "notes": "Проверить актуальный адрес и часы работы.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Bio%20Eg%C3%A9szs%C3%A9g%20Biobolt%20Budapest"
+    }
+  },
+  {
+    "id": "madhouse-bistro-craft-beer-bar",
+    "name": "MADHOUSE Bistro & Craft Beer Bar",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.4973,
+    "lng": 19.0541,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=MADHOUSE%20Bistro%20%26%20Craft%20Beer%20Bar%20Budapest"
+    }
+  },
+  {
+    "id": "parabolic-lazarus-brewery",
+    "name": "Parabolic Lázárus Brewery",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.5102,
+    "lng": 19.057,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Parabolic%20L%C3%A1z%C3%A1rus%20Brewery%20Budapest"
+    }
+  },
+  {
+    "id": "deszka-budapest",
+    "name": "Deszka Budapest",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4989,
+    "lng": 19.054,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Deszka%20Budapest%20Budapest"
+    }
+  },
+  {
+    "id": "hopaholic-craft-beer-bar-food-budapest",
+    "name": "HOPAHOLIC Craft Beer Bar & Food Budapest",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.4969,
+    "lng": 19.0552,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=HOPAHOLIC%20Craft%20Beer%20Bar%20%26%20Food%20Budapest%20Budapest"
+    }
+  },
+  {
+    "id": "gravity-brewing",
+    "name": "Gravity Brewing",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Gravity%20Brewing%20Budapest"
+    }
+  },
+  {
+    "id": "belgian-brasserie-henri",
+    "name": "Belgian Brasserie Henri",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Belgian%20Brasserie%20Henri%20Budapest"
+    }
+  },
+  {
+    "id": "pho1993",
+    "name": "PHO1993",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=PHO1993%20Budapest"
+    }
+  },
+  {
+    "id": "cake-more-by-garannikova",
+    "name": "CAKE & MORE by Garannikova",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=CAKE%20%26%20MORE%20by%20Garannikova%20Budapest"
+    }
+  },
+  {
+    "id": "mychoccy-the-chocolate-bar",
+    "name": "MyChoccy The Chocolate Bar",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4978,
+    "lng": 19.0561,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=MyChoccy%20The%20Chocolate%20Bar%20Budapest"
+    }
+  },
+  {
+    "id": "nor-ma-eszaki-stilusu-pekseg",
+    "name": "NOR/MA északi stílusú pékség",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.5064,
+    "lng": 19.0512,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=NOR/MA%20%C3%A9szaki%20st%C3%ADlus%C3%BA%20p%C3%A9ks%C3%A9g%20Budapest"
+    }
+  },
+  {
+    "id": "fromage-cheese-shop-gourmet-store",
+    "name": "Fromage - Cheese Shop & Gourmet Store",
+    "category": "shop",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Магазин или гастрономическая лавка.",
+    "notes": "Проверить актуальный адрес и часы работы.",
+    "lat": 47.4986,
+    "lng": 19.0554,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Fromage%20-%20Cheese%20Shop%20%26%20Gourmet%20Store%20Budapest"
+    }
+  },
+  {
+    "id": "oriental-soup-house",
+    "name": "Oriental Soup House",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Oriental%20Soup%20House%20Budapest"
+    }
+  },
+  {
+    "id": "csendes-letterem-vintage-bar-cafe",
+    "name": "Csendes Létterem - Vintage Bar & Café",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.4925,
+    "lng": 19.0604,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Csendes%20L%C3%A9tterem%20-%20Vintage%20Bar%20%26%20Caf%C3%A9%20Budapest"
+    }
+  },
+  {
+    "id": "corvin-gastropub",
+    "name": "Corvin Gastropub",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4851,
+    "lng": 19.0707,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Corvin%20Gastropub%20Budapest"
+    }
+  },
+  {
+    "id": "crafty-cafe",
+    "name": "Crafty Cafe",
+    "category": "coffee",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Кофе, завтрак или спокойная остановка в городе.",
+    "notes": "Подходит для короткой остановки, кофе или завтрака.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Crafty%20Cafe%20Budapest"
+    }
+  },
+  {
+    "id": "san-ramon-caffee-bar",
+    "name": "San Ramon Caffee & Bar",
+    "category": "coffee",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Кофе, завтрак или спокойная остановка в городе.",
+    "notes": "Подходит для короткой остановки, кофе или завтрака.",
+    "lat": 47.4985,
+    "lng": 19.0555,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=San%20Ramon%20Caffee%20%26%20Bar%20Budapest"
+    }
+  },
+  {
+    "id": "eleszto",
+    "name": "Élesztő",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": 47.4842,
+    "lng": 19.0703,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=%C3%89leszt%C5%91%20Budapest"
+    }
+  },
+  {
+    "id": "sofi",
+    "name": "Sofi",
+    "category": "coffee",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Кофе, завтрак или спокойная остановка в городе.",
+    "notes": "Подходит для короткой остановки, кофе или завтрака.",
+    "lat": 47.4962,
+    "lng": 19.0595,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Sofi%20Budapest"
+    }
+  },
+  {
+    "id": "soul-sandwich-studio",
+    "name": "Soul Sandwich Studio",
+    "category": "food",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место для еды в Будапеште.",
+    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
+    "lat": 47.4974,
+    "lng": 19.0568,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Soul%20Sandwich%20Studio%20Budapest"
+    }
+  },
+  {
+    "id": "ruin-bars-budapest",
+    "name": "Ruin Bars Budapest",
+    "category": "drink",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Бар или пивное место в Будапеште.",
+    "notes": "Проверить часы работы и загрузку перед визитом.",
+    "lat": null,
+    "lng": null,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Ruin%20Bars%20Budapest%20Budapest"
+    }
   }
 ]
