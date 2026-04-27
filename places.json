@@ -1,1337 +1,4609 @@
 [
   {
-    "id": "cezar-etterem-ristorante-italiano-tengeri-halkulonlegessegek",
+    "id": "99b13f5c",
+    "name": "Avalon Cafe",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.4369466,
+    "lng": 2.2430564,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.4369466,2.2430564"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "41131100",
+    "name": "Vila Viniteca",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.382511799999996,
+    "lng": 2.1816022,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.382511799999996,2.1816022"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "d378042a",
+    "name": "anís cafe",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.3783021,
+    "lng": 2.1902846,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.3783021,2.1902846"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "e7a22524",
+    "name": "Golfo de Bizkaia Born",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.384019699999996,
+    "lng": 2.1830339999999997,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.384019699999996,2.1830339999999997"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "524df582",
+    "name": "Espai Mescladis",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.3872162,
+    "lng": 2.1800739,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.3872162,2.1800739"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "dbe7d682",
+    "name": "LA VIVI",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.4071873,
+    "lng": 2.1591673,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.4071873,2.1591673"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "4baa9008",
+    "name": "Esclat",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.439597,
+    "lng": 2.233881,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.439597,2.233881"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "65c64387",
+    "name": "1748 ARTESANIA I COSES",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.3844247,
+    "lng": 2.1818675,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.3844247,2.1818675"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "dee1121b",
+    "name": "Masa divina | Pizzería artesanal en Badalona",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.4401176,
+    "lng": 2.2423987,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.4401176,2.2423987"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "14eb038a",
+    "name": "Frutaway",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.447586699999995,
+    "lng": 2.2500779,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.447586699999995,2.2500779"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "aa9975cd",
+    "name": "Guingueta Karamba",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.445103499999995,
+    "lng": 2.2495617,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.445103499999995,2.2495617"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "55c2f6fd",
+    "name": "Petit Gastrobar",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.4506513,
+    "lng": 2.2534501,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.4506513,2.2534501"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "13098588",
+    "name": "Sabores Express",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.4479445,
+    "lng": 2.2496547,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.4479445,2.2496547"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "8522a0f0",
+    "name": "La Petita de la Gran",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.4057551,
+    "lng": 2.139932,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.4057551,2.139932"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "3b2ecd1d",
+    "name": "Mariposa Negra Cocktail Bar - Cocteleria artesana",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.383693199999996,
+    "lng": 2.1830821,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.383693199999996,2.1830821"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "1d353ff3",
+    "name": "PetNat",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.3836602,
+    "lng": 2.1828722,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.3836602,2.1828722"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "31b70d90",
+    "name": "Wawel Restobar",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.4032562,
+    "lng": 2.1715731,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.4032562,2.1715731"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "f50d1026",
+    "name": "Cheers",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.3814401,
+    "lng": 2.1738437999999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.3814401,2.1738437999999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "b0571e78",
+    "name": "Bar 64 | Chess-inspired cocktail bar",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.3927311,
+    "lng": 2.1777645,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.3927311,2.1777645"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "128366a4",
+    "name": "Casa de Cerámica Barcelona",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.3856259,
+    "lng": 2.1806802999999997,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.3856259,2.1806802999999997"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "420c08bd",
+    "name": "Sucre Cremat - Autèntica Crema Catalana",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.383086999999996,
+    "lng": 2.1819439,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.383086999999996,2.1819439"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "98f130f7",
+    "name": "Bar Sincopa",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.3803913,
+    "lng": 2.1789557999999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.3803913,2.1789557999999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "8dba37f5",
+    "name": "CosmoCaixa Museum of Science",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.413180499999996,
+    "lng": 2.131123,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.413180499999996,2.131123"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "dfcd6096",
+    "name": "Ziryab Fusió",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.3840371,
+    "lng": 2.18024,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.3840371,2.18024"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "3278d968",
+    "name": "Ziryab Shisha & Cocktail Lounge",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.3839441,
+    "lng": 2.1802536999999997,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.3839441,2.1802536999999997"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "eb7bac81",
+    "name": "Mercilona",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.3845837,
+    "lng": 2.1790070999999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.3845837,2.1790070999999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "1bcaa298",
+    "name": "Gusti Toscani | Gòtic",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.3815832,
+    "lng": 2.1747259999999997,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.3815832,2.1747259999999997"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "9ee87b14",
+    "name": "Good Times Barcelona",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.4059356,
+    "lng": 2.1386624,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.4059356,2.1386624"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "43f5c69d",
+    "name": "GRANJA ARMENGOL",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.411883499999995,
+    "lng": 2.1390692,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.411883499999995,2.1390692"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "eee1bb4c",
+    "name": "EMPANADA CLUB SANT GERVASI",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.4102318,
+    "lng": 2.137416,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.4102318,2.137416"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "d5b9d2a9",
+    "name": "Levaduramadre",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.412831,
+    "lng": 2.1396384999999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.412831,2.1396384999999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "784ebfb5",
     "name": "Cézár Étterem - Ristorante Italiano - Tengeri halkülönlegességek",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 46.9124876,
+    "lng": 19.693571499999997,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=C%C3%A9z%C3%A1r%20%C3%89tterem%20-%20Ristorante%20Italiano%20-%20Tengeri%20halk%C3%BCl%C3%B6nlegess%C3%A9gek%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=46.9124876,19.693571499999997"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "hacky-s-mexikoi-etterem-gasztropub",
+    "id": "1aa71b7d",
     "name": "Hacky's Mexikói Étterem & GasztroPub",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5057958,
+    "lng": 19.0792364,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Hacky%27s%20Mexik%C3%B3i%20%C3%89tterem%20%26%20GasztroPub%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5057958,19.0792364"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "tabani-gosser-etterem",
+    "id": "03565dc9",
     "name": "Tabáni Gösser Étterem",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.493113799999996,
+    "lng": 19.0409906,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Tab%C3%A1ni%20G%C3%B6sser%20%C3%89tterem%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.493113799999996,19.0409906"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "habozo",
+    "id": "47f977a2",
+    "name": "Tesi Sáez",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.3871457,
+    "lng": 2.1824779,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.3871457,2.1824779"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "a9e3d82b",
+    "name": "Demartini Tiramisú",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.3873059,
+    "lng": 2.1805467,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.3873059,2.1805467"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "63b056da",
+    "name": "Picaresca",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.385782299999995,
+    "lng": 2.1797258999999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.385782299999995,2.1797258999999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "0f3d1dde",
+    "name": "Paninaro Born",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.385676499999995,
+    "lng": 2.1823789,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.385676499999995,2.1823789"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "7d1cc290",
+    "name": "Souvenir",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.3902138,
+    "lng": 2.1601898,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.3902138,2.1601898"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "049762fa",
+    "name": "Drops of Jupiter",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.397181499999995,
+    "lng": 2.1696206,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.397181499999995,2.1696206"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "4a658aff",
+    "name": "Patisserie Hofmann",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.385079,
+    "lng": 2.1827036,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.385079,2.1827036"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "18c28a56",
+    "name": "Billy Brunch & Park",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.387936599999996,
+    "lng": 2.1787617,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.387936599999996,2.1787617"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "71b66065",
+    "name": "Crash Beer Shop",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.832505499999996,
+    "lng": 23.483933699999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.832505499999996,23.483933699999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "8e935ba8",
+    "name": "The Old Tavern",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.827278899999996,
+    "lng": 23.482250699999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.827278899999996,23.482250699999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "c547bc3c",
     "name": "Habozó",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.5001,
-    "lng": 19.0638,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5150046,
+    "lng": 19.0493834,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Haboz%C3%B3%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5150046,19.0493834"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "the-magic-budapest",
+    "id": "c3ff9808",
+    "name": "Kasapinova Mehana",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.836031999999996,
+    "lng": 23.488184099999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.836031999999996,23.488184099999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "c3ea9c30",
     "name": "The MAGIC Budapest",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.4979,
-    "lng": 19.062,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5040676,
+    "lng": 19.0574011,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=The%20MAGIC%20Budapest%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5040676,19.0574011"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "culinaris-parlament",
+    "id": "453053eb",
     "name": "Culinaris Parlament",
-    "category": "see",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Магазин или гастрономическая лавка.",
-    "notes": "Проверить актуальный адрес и часы работы.",
-    "lat": 47.503,
-    "lng": 19.0487,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5098068,
+    "lng": 19.0470403,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Culinaris%20Parlament%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5098068,19.0470403"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "herbahaz-oktogon",
+    "id": "7d3e0a00",
     "name": "Herbaház - Oktogon",
-    "category": "see",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Магазин или гастрономическая лавка.",
-    "notes": "Проверить актуальный адрес и часы работы.",
-    "lat": 47.5052,
-    "lng": 19.063,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5059069,
+    "lng": 19.0621375,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Herbah%C3%A1z%20-%20Oktogon%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5059069,19.0621375"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "szimpla-kert",
+    "id": "c77dff30",
     "name": "Szimpla Kert",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.497,
-    "lng": 19.0636,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4969648,
+    "lng": 19.063345899999998,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Szimpla%20Kert%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4969648,19.063345899999998"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "hungarian-natural-history-museum",
+    "id": "b006d9a4",
     "name": "Hungarian Natural History Museum",
-    "category": "see",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место, которое стоит посмотреть.",
-    "notes": "Лучше заранее проверить часы работы и билеты.",
-    "lat": 47.4819,
-    "lng": 19.0833,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4827094,
+    "lng": 19.0852322,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Hungarian%20Natural%20History%20Museum%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4827094,19.0852322"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "corvin-kavezo",
+    "id": "674add7d",
     "name": "Corvin kávézó",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Кофе, завтрак или спокойная остановка в городе.",
-    "notes": "Подходит для короткой остановки, кофе или завтрака.",
-    "lat": 47.4852,
-    "lng": 19.0702,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5027739,
+    "lng": 19.0381553,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Corvin%20k%C3%A1v%C3%A9z%C3%B3%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5027739,19.0381553"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "bajor-sor-haz-hb-traunstein-beer-house-budapest",
+    "id": "8fc1a940",
     "name": "Bajor Sör-Ház - HB Traunstein Beer House Budapest",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": null,
-    "lng": null,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.501360899999995,
+    "lng": 19.0620399,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Bajor%20S%C3%B6r-H%C3%A1z%20-%20HB%20Traunstein%20Beer%20House%20Budapest%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.501360899999995,19.0620399"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "pivo-sorozo-es-sorbolt",
+    "id": "1d50b184",
     "name": "PIVO söröző és sörbolt",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.5105,
-    "lng": 19.0662,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5151446,
+    "lng": 19.0543548,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=PIVO%20s%C3%B6r%C3%B6z%C5%91%20%C3%A9s%20s%C3%B6rbolt%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5151446,19.0543548"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "a-kulonc-the-eccentric-pub",
+    "id": "1e0fc00e",
     "name": "A különc - The eccentric pub",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.4987,
-    "lng": 19.0641,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4883143,
+    "lng": 19.0563874,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=A%20k%C3%BCl%C3%B6nc%20-%20The%20eccentric%20pub%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4883143,19.0563874"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "mixat",
+    "id": "92380f71",
     "name": "Mixát",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.4959,
-    "lng": 19.0605,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4901226,
+    "lng": 19.0675789,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Mix%C3%A1t%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4901226,19.0675789"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "under-the-table",
+    "id": "aa31e766",
     "name": "Under The Table",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": null,
-    "lng": null,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.956100899999996,
+    "lng": -3.198397,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Under%20The%20Table%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.956100899999996,-3.198397"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "jaromir-68-sorpince",
+    "id": "5a15a361",
     "name": "Jaromír 68 Sörpince",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.5058,
-    "lng": 19.0675,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5078262,
+    "lng": 19.063423699999998,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Jarom%C3%ADr%2068%20S%C3%B6rpince%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5078262,19.063423699999998"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "beer-people-bar-and-specialty-beer-store",
+    "id": "2d370642",
     "name": "Beer People - Bar and Specialty Beer Store",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.4983,
-    "lng": 19.0632,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5021279,
+    "lng": 19.0560466,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Beer%20People%20-%20Bar%20and%20Specialty%20Beer%20Store%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5021279,19.0560466"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "beef-bone",
+    "id": "15c796b4",
     "name": "Beef & Bone",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.5012,
-    "lng": 19.0557,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.489076499999996,
+    "lng": 19.0541379,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Beef%20%26%20Bone%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.489076499999996,19.0541379"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "barrio",
+    "id": "7b7b2f17",
     "name": "BARRIO",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.553236399999996,
+    "lng": 18.9644749,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=BARRIO%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.553236399999996,18.9644749"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "zenta-kraft-by-etyeki",
+    "id": "649540b1",
+    "name": "Morgenstedet",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.673805099999996,
+    "lng": 12.6031623,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.673805099999996,12.6031623"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "e3ffcaa5",
+    "name": "Mikkeller",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.693532999999995,
+    "lng": 12.6078777,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.693532999999995,12.6078777"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "1c642a2c",
+    "name": "Nordic Hotdog",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.6939601,
+    "lng": 12.6096604,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.6939601,12.6096604"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "4f12aaf0",
+    "name": "Noma Projects Pop-Up",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.6834048,
+    "lng": 12.610548,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.6834048,12.610548"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "350ecbed",
+    "name": "Ø12 Coffee & Eatery",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.679933399999996,
+    "lng": 12.5794923,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.679933399999996,12.5794923"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "6016867c",
+    "name": "Black Swan",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.68655,
+    "lng": 12.5874081,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.68655,12.5874081"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "7ce1091d",
+    "name": "Breto Creperie",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.681759,
+    "lng": 12.5758215,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.681759,12.5758215"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "a7d6f59d",
+    "name": "Kelta",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.492221199999996,
+    "lng": 19.0565532,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.492221199999996,19.0565532"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "04c9d22c",
+    "name": "Yá Mart",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.504801699999994,
+    "lng": 19.067947699999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.504801699999994,19.067947699999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "4e80b36a",
+    "name": "Portal Gaming World",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 44.8081597,
+    "lng": 20.463824199999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=44.8081597,20.463824199999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "a6c4753d",
+    "name": "Monk's Bar",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 44.8032738,
+    "lng": 20.472240499999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=44.8032738,20.472240499999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "91f01676",
+    "name": "Čarna Food&Coffee",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 44.8015049,
+    "lng": 20.4752641,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=44.8015049,20.4752641"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "04fc7ada",
     "name": "Zenta Kraft by Etyeki",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.472,
-    "lng": 19.0401,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.480914899999995,
+    "lng": 19.0530638,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Zenta%20Kraft%20by%20Etyeki%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.480914899999995,19.0530638"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "otthonka",
+    "id": "a6b7ab74",
     "name": "Otthonka",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.4928,
-    "lng": 19.0623,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4920221,
+    "lng": 19.0654128,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Otthonka%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4920221,19.0654128"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "zileat-brunch-bistro-budapest",
+    "id": "b9c4550c",
+    "name": "Beyond The Bar",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 50.084584199999995,
+    "lng": 14.4164028,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=50.084584199999995,14.4164028"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "5f421966",
+    "name": "Kavárna Čas",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 50.0877007,
+    "lng": 14.408528899999999,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=50.0877007,14.408528899999999"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "ca13c350",
+    "name": "U Špirků",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 50.086224599999994,
+    "lng": 14.421450199999999,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=50.086224599999994,14.421450199999999"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "8b226ae9",
+    "name": "Venue",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 50.0841314,
+    "lng": 14.4208345,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=50.0841314,14.4208345"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "a2425b95",
+    "name": "Českavárna Portheimka",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 50.0737174,
+    "lng": 14.4041413,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=50.0737174,14.4041413"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "97e44a0d",
+    "name": "Kampa Cafe",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 50.080914299999996,
+    "lng": 14.406876599999999,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=50.080914299999996,14.406876599999999"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "8ad22cce",
+    "name": "Nama Sushi & Coffee",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.4359833,
+    "lng": 18.693544499999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.4359833,18.693544499999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "d85b8348",
     "name": "Zileat Brunch & Bistro Budapest",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4916281,
+    "lng": 19.0452414,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Zileat%20Brunch%20%26%20Bistro%20Budapest%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4916281,19.0452414"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "vatoz",
+    "id": "3442c0a9",
     "name": "Vatoz",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4885,
-    "lng": 19.0801,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4922177,
+    "lng": 19.0733131,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Vatoz%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4922177,19.0733131"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "blue-tomato",
+    "id": "8dfed7ba",
     "name": "Blue Tomato",
-    "category": "see",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Магазин или гастрономическая лавка.",
-    "notes": "Проверить актуальный адрес и часы работы.",
-    "lat": 47.5101,
-    "lng": 19.0639,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5134798,
+    "lng": 19.0518818,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Blue%20Tomato%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5134798,19.0518818"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "ya-mart",
-    "name": "Yá Mart",
-    "category": "see",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Магазин или гастрономическая лавка.",
-    "notes": "Проверить актуальный адрес и часы работы.",
-    "lat": 47.5049,
-    "lng": 19.0672,
+    "id": "d0d779d4",
+    "name": "Dr Stravinsky",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.384191699999995,
+    "lng": 2.1806574,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Y%C3%A1%20Mart%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.384191699999995,2.1806574"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "rizmajer-beerhouse",
+    "id": "50435e3d",
     "name": "Rizmajer Beerhouse",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.4707,
-    "lng": 19.0335,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4951618,
+    "lng": 19.0712051,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Rizmajer%20Beerhouse%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4951618,19.0712051"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "94-konyha-bar",
+    "id": "578cd122",
+    "name": "Žil Verne craftbeer pub",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 48.1424739,
+    "lng": 17.1078551,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=48.1424739,17.1078551"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "344e1f77",
+    "name": "The Izzi Pub",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 48.115116199999996,
+    "lng": 17.1099004,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=48.115116199999996,17.1099004"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "bc02774d",
+    "name": "Bratislava Flagship",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 48.1461397,
+    "lng": 17.1102885,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=48.1461397,17.1102885"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "8476dc54",
+    "name": "Bistro Zepen House",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 48.1495551,
+    "lng": 17.1148644,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=48.1495551,17.1148644"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "cd044854",
     "name": "94' konyha & bar",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5011036,
+    "lng": 19.0616159,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=94%27%20konyha%20%26%20bar%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5011036,19.0616159"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "keg-sormuvhaz",
+    "id": "a9383269",
     "name": "KEG sörművház",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.5104,
-    "lng": 19.0573,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4820785,
+    "lng": 19.0521907,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=KEG%20s%C3%B6rm%C5%B1vh%C3%A1z%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4820785,19.0521907"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "csakajosor-kft",
+    "id": "524261dc",
+    "name": "Augustiner Stammhaus",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 48.1384,
+    "lng": 11.568843,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=48.1384,11.568843"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "3ae04d2a",
+    "name": "Chopan - near Gasteig",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 48.1314339,
+    "lng": 11.5887867,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=48.1314339,11.5887867"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "9dfff74d",
+    "name": "Le Dahu",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 48.5795344,
+    "lng": 7.748752799999999,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=48.5795344,7.748752799999999"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "f83c0cef",
+    "name": "Le Tire-Bouchon",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 48.580593099999994,
+    "lng": 7.7506661999999995,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=48.580593099999994,7.7506661999999995"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "d7bfc129",
+    "name": "Au Petit Bois Vert",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 48.5809506,
+    "lng": 7.738946299999999,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=48.5809506,7.738946299999999"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "3d8223b8",
+    "name": "Cafe & Bar Celona Nürnberg",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 49.452639,
+    "lng": 11.07699,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=49.452639,11.07699"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "d3fae040",
+    "name": "DIE WIRTSCHAFT",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 49.454575999999996,
+    "lng": 11.076183799999999,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=49.454575999999996,11.076183799999999"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "7713b393",
+    "name": "Hospoda Na Spilce - tankové pivo",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 49.747297599999996,
+    "lng": 13.387831199999999,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=49.747297599999996,13.387831199999999"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "50043164",
+    "name": "Zona Bistro",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 50.0907986,
+    "lng": 14.4269068,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=50.0907986,14.4269068"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "e27f41ec",
+    "name": "Husinec",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 50.0784759,
+    "lng": 14.429355099999999,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=50.0784759,14.429355099999999"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "c9674598",
+    "name": "Den Noc",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 50.0880867,
+    "lng": 14.425466199999999,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=50.0880867,14.425466199999999"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "8a8afaa2",
     "name": "Csakajósör Kft.",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.5037,
-    "lng": 19.067,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.501869199999994,
+    "lng": 19.0652914,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Csakaj%C3%B3s%C3%B6r%20Kft.%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.501869199999994,19.0652914"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "marlou-wine-bar-store",
+    "id": "b206659d",
     "name": "Marlou wine bar & store",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": null,
-    "lng": null,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.503021,
+    "lng": 19.0572725,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Marlou%20wine%20bar%20%26%20store%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.503021,19.0572725"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "ruin-brew-brunch-beer",
+    "id": "8e842fd9",
     "name": "Ruin Brew: Brunch & Beer",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": null,
-    "lng": null,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5011424,
+    "lng": 19.064280699999998,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Ruin%20Brew%3A%20Brunch%20%26%20Beer%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5011424,19.064280699999998"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "anjuna-ice-pops",
+    "id": "bbd9fe31",
     "name": "Anjuna Ice Pops",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5012098,
+    "lng": 19.0613596,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Anjuna%20Ice%20Pops%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5012098,19.0613596"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "crudo-pizza",
+    "id": "492c4b4a",
     "name": "CRUDO PIZZA",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4971,
-    "lng": 19.0587,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.495967199999996,
+    "lng": 19.05263,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=CRUDO%20PIZZA%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.495967199999996,19.05263"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "mazi-greek-kitchen",
+    "id": "83e78f19",
     "name": "Mazi Greek Kitchen",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.507391,
+    "lng": 19.052536999999997,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Mazi%20Greek%20Kitchen%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.507391,19.052536999999997"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "grease-monkey-budapest",
+    "id": "08331dff",
     "name": "Grease Monkey Budapest",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.502094199999995,
+    "lng": 19.0560094,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Grease%20Monkey%20Budapest%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.502094199999995,19.0560094"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "passata",
+    "id": "985b3feb",
     "name": "Passata",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.6680454,
+    "lng": 19.0761845,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Passata%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.6680454,19.0761845"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "edy-s-french-tacos",
+    "id": "dee9e23b",
     "name": "Edy's French Tacos",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5035412,
+    "lng": 19.058086199999998,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Edy%27s%20French%20Tacos%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5035412,19.058086199999998"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "ukrainian-courtyard",
+    "id": "1e44fe95",
     "name": "Ukrainian courtyard",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4865807,
+    "lng": 19.0636159,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Ukrainian%20courtyard%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4865807,19.0636159"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "port-beer-food",
+    "id": "b462dc74",
     "name": "PORT beer&food",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": null,
-    "lng": null,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5020781,
+    "lng": 19.0394681,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=PORT%20beer%26food%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5020781,19.0394681"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "tati-farm-to-table",
+    "id": "ebff64f9",
+    "name": "Khitryye Lyudi",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.755750799999994,
+    "lng": 37.6659042,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.755750799999994,37.6659042"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "b873c18d",
+    "name": "Glavpivmag",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.760915999999995,
+    "lng": 37.64624,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.760915999999995,37.64624"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "384f1b61",
+    "name": "Trappist",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.7566055,
+    "lng": 37.627115499999995,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.7566055,37.627115499999995"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "1fd7fa39",
+    "name": "Restoran Tsdl",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.7574325,
+    "lng": 37.5871268,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.7574325,37.5871268"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "4a6e13b4",
+    "name": "Tower Tavern",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.521328,
+    "lng": -0.1399369,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.521328,-0.1399369"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "6359aafd",
+    "name": "Etno Selo Sljeme - LUCOM",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 43.1082549,
+    "lng": 19.116078899999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=43.1082549,19.116078899999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "2d767d23",
+    "name": "Wahaca Oxford Circus",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.5168444,
+    "lng": -0.1409726,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.5168444,-0.1409726"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "1d4434b8",
+    "name": "Khachapuri",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.747742599999995,
+    "lng": 37.566750299999995,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.747742599999995,37.566750299999995"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "2b9870c6",
+    "name": "La Pairoliere",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 43.6996073,
+    "lng": 7.278816399999999,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=43.6996073,7.278816399999999"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "4d240325",
+    "name": "Lazy Fox",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 60.1646125,
+    "lng": 24.9326533,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=60.1646125,24.9326533"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "512dfb50",
+    "name": "Clapsy Alassio",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 44.0058321,
+    "lng": 8.1725899,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=44.0058321,8.1725899"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "a9466763",
+    "name": "Fronte Mare",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 44.005964299999995,
+    "lng": 8.1728141,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=44.005964299999995,8.1728141"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "e974e337",
+    "name": "Radisson Blu Aleksanteri Hotel",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 60.164122,
+    "lng": 24.9332598,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=60.164122,24.9332598"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "a175a501",
+    "name": "St. Stephen's Cathedral",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 48.208411399999996,
+    "lng": 16.3734707,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=48.208411399999996,16.3734707"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "95e3317c",
+    "name": "The Social Hub Berlin",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 52.516829099999995,
+    "lng": 13.4178901,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=52.516829099999995,13.4178901"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "93646e50",
+    "name": "Konoba Vila Marija Prcanj",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.455936699999995,
+    "lng": 18.7468798,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.455936699999995,18.7468798"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "cdb862c1",
     "name": "TATI Farm to Table",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4978,
-    "lng": 19.055,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.498019299999996,
+    "lng": 19.068940599999998,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=TATI%20Farm%20to%20Table%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.498019299999996,19.068940599999998"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "the-garden-cafe",
+    "id": "faafa336",
     "name": "The Garden Café",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Кофе, завтрак или спокойная остановка в городе.",
-    "notes": "Подходит для короткой остановки, кофе или завтрака.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4997517,
+    "lng": 19.0560381,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=The%20Garden%20Caf%C3%A9%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4997517,19.0560381"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "red-ruin",
+    "id": "801b18b1",
     "name": "Red Ruin",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.4955,
-    "lng": 19.0633,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4917449,
+    "lng": 19.056081199999998,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Red%20Ruin%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4917449,19.056081199999998"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "kicsi-japan",
+    "id": "6251f5c9",
     "name": "Kicsi Japán",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4977,
-    "lng": 19.0587,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4857959,
+    "lng": 19.0706281,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Kicsi%20Jap%C3%A1n%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4857959,19.0706281"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "gelarto-rosa-grande",
+    "id": "8cfa3b02",
     "name": "Gelarto Rosa Grande",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.500213599999995,
+    "lng": 19.053086999999998,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Gelarto%20Rosa%20Grande%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.500213599999995,19.053086999999998"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "gelarto-rosa",
+    "id": "03f4336d",
     "name": "Gelarto Rosa",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.5009,
-    "lng": 19.0543,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5014152,
+    "lng": 19.0531327,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Gelarto%20Rosa%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5014152,19.0531327"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "gelateria-pichler-fagyizo",
+    "id": "49b31cff",
     "name": "Gelateria Pichler Fagyizó",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.497,
-    "lng": 19.0605,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.493603799999995,
+    "lng": 19.0566542,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Gelateria%20Pichler%20Fagyiz%C3%B3%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.493603799999995,19.0566542"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "manu",
+    "id": "e5e0cbe6",
     "name": "MANU+",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4971,
-    "lng": 19.0559,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4880019,
+    "lng": 19.0589156,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=MANU%2B%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4880019,19.0589156"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "casa-mexa",
+    "id": "04f60080",
+    "name": "Soepbar Sordo",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.058416199999996,
+    "lng": 3.7210943999999997,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.058416199999996,3.7210943999999997"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "54891dcd",
+    "name": "Trollekelder",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.0560773,
+    "lng": 3.7272453,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.0560773,3.7272453"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "69af8594",
+    "name": "Tush Gent",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.0550698,
+    "lng": 3.7240127,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.0550698,3.7240127"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "17ea97ef",
+    "name": "Maison Elza",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.056388899999995,
+    "lng": 3.7199999999999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.056388899999995,3.7199999999999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "fff471e9",
+    "name": "Modest",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.0503517,
+    "lng": 3.7285461,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.0503517,3.7285461"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "a4428a30",
+    "name": "Barrazza café",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.0568009,
+    "lng": 3.7231886999999997,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.0568009,3.7231886999999997"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "35e8f079",
+    "name": "Odil",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.043639999999996,
+    "lng": 3.7210284,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.043639999999996,3.7210284"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "1a62aa97",
+    "name": "Trappistenhuis",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.049363199999995,
+    "lng": 3.7330519,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.049363199999995,3.7330519"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "35bd53c5",
     "name": "Casa Mexa",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4959278,
+    "lng": 19.0626101,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Casa%20Mexa%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4959278,19.0626101"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "papitos-mexican-street-food-madach",
+    "id": "8920ad38",
     "name": "Papitos Mexican Street Food - Madách",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4976,
-    "lng": 19.0612,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4977897,
+    "lng": 19.0578966,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Papitos%20Mexican%20Street%20Food%20-%20Mad%C3%A1ch%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4977897,19.0578966"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "dentist-for-you",
+    "id": "e15d6ac0",
     "name": "Dentist For You",
-    "category": "see",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Сервисная точка из сохранённого списка.",
-    "notes": "Проверить актуальность в Google Maps перед визитом.",
-    "lat": 47.4795,
-    "lng": 19.0831,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4784313,
+    "lng": 19.078253399999998,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Dentist%20For%20You%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4784313,19.078253399999998"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "pasta",
+    "id": "a401bcd3",
     "name": "PASTA.",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4947,
-    "lng": 19.0609,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.489616399999996,
+    "lng": 19.061076399999997,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=PASTA.%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.489616399999996,19.061076399999997"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "grumpy-food-bar-coffee",
+    "id": "c11006e3",
     "name": "Grumpy Food Bar Coffee",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Кофе, завтрак или спокойная остановка в городе.",
-    "notes": "Подходит для короткой остановки, кофе или завтрака.",
-    "lat": 47.498,
-    "lng": 19.0572,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.499184799999995,
+    "lng": 19.0648594,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Grumpy%20Food%20Bar%20Coffee%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.499184799999995,19.0648594"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "forever-young",
+    "id": "b05ecf45",
     "name": "Forever Young. Вечно молодой",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.484943699999995,
+    "lng": 19.061823999999998,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Forever%20Young.%20%D0%92%D0%B5%D1%87%D0%BD%D0%BE%20%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D0%BE%D0%B9%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.484943699999995,19.061823999999998"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "pho-astoria-bistro",
+    "id": "ac63c943",
     "name": "Pho-Astoria Bistro",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4949,
-    "lng": 19.0602,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4937246,
+    "lng": 19.0571637,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Pho-Astoria%20Bistro%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4937246,19.0571637"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "bangkok-thai-etterem",
+    "id": "39800651",
     "name": "Bangkok Thai Étterem",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4982,
-    "lng": 19.0611,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.487929,
+    "lng": 19.0581063,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Bangkok%20Thai%20%C3%89tterem%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.487929,19.0581063"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "la-boutique-by-meinhart-vdr-hungary",
+    "id": "f78454fd",
     "name": "La Boutique By Meinhart & VDR Hungary",
-    "category": "see",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Магазин или гастрономическая лавка.",
-    "notes": "Проверить актуальный адрес и часы работы.",
-    "lat": null,
-    "lng": null,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.490304599999995,
+    "lng": 19.0592743,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=La%20Boutique%20By%20Meinhart%20%26%20VDR%20Hungary%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.490304599999995,19.0592743"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "cintanyeros",
+    "id": "e323369a",
     "name": "Cintányéros",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4973,
-    "lng": 19.0638,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4849763,
+    "lng": 19.078800599999997,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Cint%C3%A1ny%C3%A9ros%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4849763,19.078800599999997"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "bistrology-budapest",
+    "id": "2665066f",
     "name": "Bistrology Budapest",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.5032,
-    "lng": 19.0545,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4960289,
+    "lng": 19.0642623,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Bistrology%20Budapest%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4960289,19.0642623"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "ruby-etterem-sushi-and-asian-food",
-    "name": "Ruby Étterem (sushi and Asian food)",
+    "id": "7bc7526b",
+    "name": "Ruby Étterem ( sushi and Asian food)",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4936259,
+    "lng": 19.0567413,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Ruby%20%C3%89tterem%20%28sushi%20and%20Asian%20food%29%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4936259,19.0567413"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "hiyoriya-japanese-grocery-shop",
-    "name": "HIYORIYA - Japanese Grocery Shop",
-    "category": "see",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Магазин или гастрономическая лавка.",
-    "notes": "Проверить актуальный адрес и часы работы.",
-    "lat": 47.4953,
-    "lng": 19.0615,
+    "id": "6925834d",
+    "name": "HIYORIYA-Japanese Grocery Shop-",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.48594,
+    "lng": 19.0704058,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=HIYORIYA%20-%20Japanese%20Grocery%20Shop%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.48594,19.0704058"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "vivina-s-cafe-roastery-coffee-brunch-and-more",
+    "id": "6de9954a",
     "name": "VIVINA'S Café & Roastery - coffee, brunch and more",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Кофе, завтрак или спокойная остановка в городе.",
-    "notes": "Подходит для короткой остановки, кофе или завтрака.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4898959,
+    "lng": 19.0583663,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=VIVINA%27S%20Caf%C3%A9%20%26%20Roastery%20-%20coffee%2C%20brunch%20and%20more%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4898959,19.0583663"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "aranypinty",
+    "id": "725b1473",
     "name": "Aranypinty",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.501,
-    "lng": 19.0526,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4927238,
+    "lng": 19.063465,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Aranypinty%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4927238,19.063465"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "pizza-manufaktura",
+    "id": "3673295c",
     "name": "Pizza Manufaktúra",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4971,
-    "lng": 19.0622,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4867261,
+    "lng": 19.0608662,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Pizza%20Manufakt%C3%BAra%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4867261,19.0608662"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "bambuszliget-japan-etterem-sushi-bar",
+    "id": "b442c17e",
     "name": "Bambuszliget Japán Étterem & Sushi Bár",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4927,
-    "lng": 19.0583,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4892645,
+    "lng": 19.0538666,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Bambuszliget%20Jap%C3%A1n%20%C3%89tterem%20%26%20Sushi%20B%C3%A1r%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4892645,19.0538666"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "beerstro14-steak-house-restaurant",
+    "id": "0f46d892",
     "name": "Beerstro14 Steak House Restaurant",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.5058,
-    "lng": 19.0643,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.492018699999996,
+    "lng": 19.0572676,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Beerstro14%20Steak%20House%20Restaurant%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.492018699999996,19.0572676"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "crafty-bar",
+    "id": "a084084d",
     "name": "Crafty Bar",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.4979,
-    "lng": 19.0548,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.482064099999995,
+    "lng": 19.0721406,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Crafty%20Bar%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.482064099999995,19.0721406"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "oriental-soup-house-szervita-ter",
+    "id": "b27f70eb",
     "name": "Oriental Soup House Szervita tér",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4946,
-    "lng": 19.0529,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4954147,
+    "lng": 19.0525292,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Oriental%20Soup%20House%20Szervita%20t%C3%A9r%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4954147,19.0525292"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "biang-bisztro-vamhaz-krt",
+    "id": "9b8b56d9",
     "name": "Biang Bisztró - Vámház krt.",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4938,
-    "lng": 19.0581,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.487578299999996,
+    "lng": 19.0587566,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Biang%20Bisztr%C3%B3%20-%20V%C3%A1mh%C3%A1z%20krt.%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.487578299999996,19.0587566"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "bio-egeszseg-biobolt",
+    "id": "b4fb4f8a",
     "name": "Bio Egészség Biobolt",
-    "category": "see",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Магазин или гастрономическая лавка.",
-    "notes": "Проверить актуальный адрес и часы работы.",
-    "lat": null,
-    "lng": null,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.495095,
+    "lng": 19.062397,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Bio%20Eg%C3%A9szs%C3%A9g%20Biobolt%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.495095,19.062397"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "madhouse-bistro-craft-beer-bar",
+    "id": "dfbea7a8",
     "name": "MADHOUSE Bistro & Craft Beer Bar",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.4973,
-    "lng": 19.0541,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4980617,
+    "lng": 19.0555071,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=MADHOUSE%20Bistro%20%26%20Craft%20Beer%20Bar%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4980617,19.0555071"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "parabolic-lazarus-brewery",
+    "id": "da0c5057",
     "name": "Parabolic Lázárus Brewery",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.5102,
-    "lng": 19.057,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.502263899999996,
+    "lng": 19.0561199,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Parabolic%20L%C3%A1z%C3%A1rus%20Brewery%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.502263899999996,19.0561199"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "deszka-budapest",
+    "id": "44e78448",
     "name": "Deszka Budapest",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4989,
-    "lng": 19.054,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4888474,
+    "lng": 19.057900699999998,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Deszka%20Budapest%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4888474,19.057900699999998"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "hopaholic-craft-beer-bar-food-budapest",
+    "id": "4c786117",
     "name": "HOPAHOLIC Craft Beer Bar & Food Budapest",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.4969,
-    "lng": 19.0552,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4998936,
+    "lng": 19.0656611,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=HOPAHOLIC%20Craft%20Beer%20Bar%20%26%20Food%20Budapest%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4998936,19.0656611"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "gravity-brewing",
+    "id": "6b6d4656",
     "name": "Gravity Brewing",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": null,
-    "lng": null,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4858463,
+    "lng": 19.0622232,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Gravity%20Brewing%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4858463,19.0622232"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "belgian-brasserie-henri",
+    "id": "ce96d733",
     "name": "Belgian Brasserie Henri",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.501668599999995,
+    "lng": 19.0397604,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Belgian%20Brasserie%20Henri%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.501668599999995,19.0397604"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "pho1993",
+    "id": "62bb84a7",
     "name": "PHO1993",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4816976,
+    "lng": 19.072468999999998,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=PHO1993%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4816976,19.072468999999998"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "cake-more-by-garannikova",
+    "id": "d961c8b7",
     "name": "CAKE & MORE by Garannikova",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5045322,
+    "lng": 19.0531492,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=CAKE%20%26%20MORE%20by%20Garannikova%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5045322,19.0531492"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "mychoccy-the-chocolate-bar",
+    "id": "60a1dfef",
     "name": "MyChoccy The Chocolate Bar",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4978,
-    "lng": 19.0561,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4842387,
+    "lng": 19.0655935,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=MyChoccy%20The%20Chocolate%20Bar%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4842387,19.0655935"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "nor-ma-eszaki-stilusu-pekseg",
-    "name": "NOR/MA északi stílusú pékség",
+    "id": "9450690f",
+    "name": "NOR\\MA északi stílusú pékség",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.5064,
-    "lng": 19.0512,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.490231699999995,
+    "lng": 19.060232,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=NOR/MA%20%C3%A9szaki%20st%C3%ADlus%C3%BA%20p%C3%A9ks%C3%A9g%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.490231699999995,19.060232"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "fromage-cheese-shop-gourmet-store",
-    "name": "Fromage - Cheese Shop & Gourmet Store",
-    "category": "see",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Магазин или гастрономическая лавка.",
-    "notes": "Проверить актуальный адрес и часы работы.",
-    "lat": 47.4986,
-    "lng": 19.0554,
+    "id": "8d6f21e3",
+    "name": "Anjuna Ice Pops",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5143561,
+    "lng": 19.0489455,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Fromage%20-%20Cheese%20Shop%20%26%20Gourmet%20Store%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5143561,19.0489455"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "oriental-soup-house",
+    "id": "a42157b6",
+    "name": "Fromage- CHEESE SHOP & GOURMET STORE",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5145695,
+    "lng": 19.049058799999997,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5145695,19.049058799999997"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "85e55a48",
     "name": "Oriental Soup House",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5168629,
+    "lng": 19.0520676,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Oriental%20Soup%20House%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5168629,19.0520676"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "csendes-letterem-vintage-bar-cafe",
+    "id": "40b713c1",
     "name": "Csendes Létterem - Vintage Bar & Café",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.4925,
-    "lng": 19.0604,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.492811599999996,
+    "lng": 19.0603828,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Csendes%20L%C3%A9tterem%20-%20Vintage%20Bar%20%26%20Caf%C3%A9%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.492811599999996,19.0603828"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "corvin-gastropub",
+    "id": "64e141a7",
     "name": "Corvin Gastropub",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4851,
-    "lng": 19.0707,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.5030332,
+    "lng": 19.0387176,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Corvin%20Gastropub%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.5030332,19.0387176"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "crafty-cafe",
+    "id": "2e467d3a",
     "name": "Crafty Cafe",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Кофе, завтрак или спокойная остановка в городе.",
-    "notes": "Подходит для короткой остановки, кофе или завтрака.",
-    "lat": null,
-    "lng": null,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4821278,
+    "lng": 19.07189,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Crafty%20Cafe%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4821278,19.07189"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "san-ramon-caffee-bar",
+    "id": "48c9b949",
     "name": "San Ramon Caffee & Bar",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Кофе, завтрак или спокойная остановка в городе.",
-    "notes": "Подходит для короткой остановки, кофе или завтрака.",
-    "lat": 47.4985,
-    "lng": 19.0555,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.4822667,
+    "lng": 19.070792,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=San%20Ramon%20Caffee%20%26%20Bar%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.4822667,19.070792"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "eleszto",
+    "id": "e622d1ba",
     "name": "Élesztő",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": 47.4842,
-    "lng": 19.0703,
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.483573199999995,
+    "lng": 19.072647399999997,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=%C3%89leszt%C5%91%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.483573199999995,19.072647399999997"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "sofi",
+    "id": "be0b8991",
     "name": "Sofi",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Кофе, завтрак или спокойная остановка в городе.",
-    "notes": "Подходит для короткой остановки, кофе или завтрака.",
-    "lat": 47.4962,
-    "lng": 19.0595,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.427515,
+    "lng": 18.6993076,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Sofi%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.427515,18.6993076"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "soul-sandwich-studio",
+    "id": "6cc6f9d0",
     "name": "Soul Sandwich Studio",
     "category": "eat",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Место для еды в Будапеште.",
-    "notes": "Лучше заранее проверить меню, часы работы и бронь.",
-    "lat": 47.4974,
-    "lng": 19.0568,
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.4274839,
+    "lng": 18.7033555,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Soul%20Sandwich%20Studio%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.4274839,18.7033555"
+    },
+    "image": null,
+    "image_alt": null
   },
   {
-    "id": "ruin-bars-budapest",
-    "name": "Ruin Bars Budapest",
-    "category": "drink",
-    "district": "—",
-    "price": "€€",
-    "rating": 4.0,
-    "short": "Бар или пивное место в Будапеште.",
-    "notes": "Проверить часы работы и загрузку перед визитом.",
-    "lat": null,
-    "lng": null,
+    "id": "2f3d4c61",
+    "name": "tavanarası restaurant",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.0300059,
+    "lng": 28.9747767,
     "links": {
-      "maps": "https://www.google.com/maps/search/?api=1&query=Ruin%20Bars%20Budapest%20Budapest"
-    }
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.0300059,28.9747767"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "ea1fb284",
+    "name": "Gold Balat Restaurant",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.031025299999996,
+    "lng": 28.9492861,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.031025299999996,28.9492861"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "e9c2e8c0",
+    "name": "Tower Pub",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.025411899999995,
+    "lng": 28.9740291,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.025411899999995,28.9740291"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "f2637443",
+    "name": "Palatium Cafe and Restaurant",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.0061307,
+    "lng": 28.9803778,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.0061307,28.9803778"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "2f3f5912",
+    "name": "Kolar Beisl - Kleeblattgasse",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 48.210673799999995,
+    "lng": 16.3700273,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=48.210673799999995,16.3700273"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "49451f68",
+    "name": "Osteria da Fortunata - Rinascimento",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.8976934,
+    "lng": 12.4739066,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.8976934,12.4739066"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "ddf9fc66",
+    "name": "Jerry Thomas Speakeasy",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.8979563,
+    "lng": 12.4679109,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.8979563,12.4679109"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "e76f36ca",
+    "name": "The Benedict Brunch Barcelona",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 41.381433,
+    "lng": 2.180227,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=41.381433,2.180227"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "d75c2bfd",
+    "name": "Kaffee Alt Wien",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 48.2091907,
+    "lng": 16.3762129,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=48.2091907,16.3762129"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "83f5f5d6",
+    "name": "Kaffeekirsche Roastery",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 52.493164199999995,
+    "lng": 13.421576799999999,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=52.493164199999995,13.421576799999999"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "f56c2182",
+    "name": "Mikkeller Bar",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.6719174,
+    "lng": 12.5575669,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.6719174,12.5575669"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "c91e4d8f",
+    "name": "Reinh. van Hauen",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.683284,
+    "lng": 12.5866826,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.683284,12.5866826"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "0cf629a8",
+    "name": "Bockshorn Irish Pub",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 48.2099189,
+    "lng": 16.36778,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=48.2099189,16.36778"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "503d4e3a",
+    "name": "Rt Veslo",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.368266999999996,
+    "lng": 18.6123671,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.368266999999996,18.6123671"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "c35566f6",
+    "name": "Pancake YUMMY",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.429266399999996,
+    "lng": 18.7024968,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.429266399999996,18.7024968"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "7d8eb5fa",
+    "name": "Taj Mahal Old Town",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.6404375,
+    "lng": 18.108831,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.6404375,18.108831"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "a8ea186a",
+    "name": "Green Forest apartmani",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 43.0999694,
+    "lng": 19.116094399999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=43.0999694,19.116094399999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "437708c7",
+    "name": "METHOD • Beer & Munchies",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.741555999999996,
+    "lng": 37.659926,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.741555999999996,37.659926"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "a3bbeb10",
+    "name": "Интеллигенция",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.7437166,
+    "lng": 37.6616461,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.7437166,37.6616461"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "490d5b94",
+    "name": "Alesha I Grafin",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.7435094,
+    "lng": 37.6520102,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.7435094,37.6520102"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "23c9c0e1",
+    "name": "Powerhouse",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.7457736,
+    "lng": 37.6463673,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.7457736,37.6463673"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "d5b5aaf8",
+    "name": "Michelada",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.757272699999994,
+    "lng": 37.6341349,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.757272699999994,37.6341349"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "7a3fd2d6",
+    "name": "Veladora. Tacos y tragos",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.758002,
+    "lng": 37.6399161,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.758002,37.6399161"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "1a7b5143",
+    "name": "Black Swan",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.754045,
+    "lng": 37.63742,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.754045,37.63742"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "9f399bd8",
+    "name": "Hard Rock Cafe",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.4416909,
+    "lng": 19.2624296,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.4416909,19.2624296"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "f7d454a4",
+    "name": "Pub \"Old Town\" Kotor",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.425250299999995,
+    "lng": 18.7720007,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.425250299999995,18.7720007"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "c2451fe0",
+    "name": "The Nitrox Pub & Eatery",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.4228121,
+    "lng": 18.7717244,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.4228121,18.7717244"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "b13b6434",
+    "name": "Deli italia",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.4326017,
+    "lng": 18.693626599999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.4326017,18.693626599999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "1f86bf97",
+    "name": "GODDO Delizia Italiana",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.4341417,
+    "lng": 18.693123,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.4341417,18.693123"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "56dbf4e2",
+    "name": "MARENDA steak house",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.421155999999996,
+    "lng": 18.770154299999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.421155999999996,18.770154299999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "528b7428",
+    "name": "BBQ Tanjga",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.4219017,
+    "lng": 18.7703834,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.4219017,18.7703834"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "376cd46b",
+    "name": "Piljara- The Grocery Store",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.428552599999996,
+    "lng": 18.7027066,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.428552599999996,18.7027066"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "588477b2",
+    "name": "Mesara Miljanić",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "Свежее, красивое мясо, в отличии от мясных лавок в центре Тивата",
+    "lat": 42.4265257,
+    "lng": 18.7041677,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.4265257,18.7041677"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "da7c51fc",
+    "name": "Милош. Устричная Ферма",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.484483,
+    "lng": 18.728642999999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.484483,18.728642999999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "15e42f88",
+    "name": "Verige 65",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.4787039,
+    "lng": 18.686705099999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.4787039,18.686705099999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "0e9fe351",
+    "name": "IDEA Gourmet",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.4351213,
+    "lng": 18.6018447,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.4351213,18.6018447"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "f643d58d",
+    "name": "GODO",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.434176799999996,
+    "lng": 18.6003983,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.434176799999996,18.6003983"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "cfa36fef",
+    "name": "Bonjour",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.436410699999996,
+    "lng": 18.6982151,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.436410699999996,18.6982151"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "d6dd98bb",
+    "name": "Maxima Pharmacy",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.4321024,
+    "lng": 18.6943891,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.4321024,18.6943891"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "a74f406f",
+    "name": "'T walpoortje",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.202315,
+    "lng": 3.224687,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.202315,3.224687"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "696bbe66",
+    "name": "Huisbrouwerij De Halve Maan",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.202447299999996,
+    "lng": 3.2241779999999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.202447299999996,3.2241779999999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "1e346391",
+    "name": "Pralinette",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.2075101,
+    "lng": 3.2263230999999997,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.2075101,3.2263230999999997"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "c20162b9",
+    "name": "House of waffles",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.207536,
+    "lng": 3.2262798999999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.207536,3.2262798999999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "fe83528a",
+    "name": "Chocolatier Van Oost",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.208126199999995,
+    "lng": 3.2254529,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.208126199999995,3.2254529"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "6fea4c6e",
+    "name": "Hof Campers",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.2191325,
+    "lng": 3.2274545,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.2191325,3.2274545"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "d9187cf0",
+    "name": "Koelewei Mill",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.2199556,
+    "lng": 3.2342641,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.2199556,3.2342641"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "a52c5946",
+    "name": "Парк Минневатер",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.1995291,
+    "lng": 3.225273,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.1995291,3.225273"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "5528ac46",
+    "name": "Vlaminck '14",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.209767299999996,
+    "lng": 3.2247402,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.209767299999996,3.2247402"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "32b97689",
+    "name": "Le Trappiste",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 51.210828199999995,
+    "lng": 3.2227691,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=51.210828199999995,3.2227691"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "0e91d290",
+    "name": "Ботанический сад",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.6849043,
+    "lng": 12.5733926,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.6849043,12.5733926"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "9c9fa21c",
+    "name": "Замок Росенборг",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.6858274,
+    "lng": 12.5772687,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.6858274,12.5772687"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "c549d171",
+    "name": "Maxos",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 59.332197799999996,
+    "lng": 18.0448138,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=59.332197799999996,18.0448138"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "11a7d036",
+    "name": "Скансен",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 59.3263227,
+    "lng": 18.105858299999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=59.3263227,18.105858299999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "8e35de9c",
+    "name": "The Science Fiction Bookstore",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 59.324047099999994,
+    "lng": 18.070528499999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=59.324047099999994,18.070528499999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "53e60510",
+    "name": "Национални ресторан Царевић",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.2915655,
+    "lng": 18.755663,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.2915655,18.755663"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "c76778fc",
+    "name": "StrangeLove",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 54.6850873,
+    "lng": 25.2935676,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=54.6850873,25.2935676"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "52aa4c19",
+    "name": "ЗАВТРАКИ 24.ZAVTRAKI 24.BREAKFAST 24",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 53.9058269,
+    "lng": 27.5599518,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=53.9058269,27.5599518"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "84e8603b",
+    "name": "На Дне шот бар",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 53.9062761,
+    "lng": 27.557669599999997,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=53.9062761,27.557669599999997"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "df5a9f81",
+    "name": "Konoba Bahus",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.430153999999995,
+    "lng": 18.7007431,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.430153999999995,18.7007431"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "7a1c49c4",
+    "name": "Pizzeria Pronto",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.424709799999995,
+    "lng": 18.770877199999997,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.424709799999995,18.770877199999997"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "4d3e5fcf",
+    "name": "Barley & Bait",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 60.1582601,
+    "lng": 24.9136065,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=60.1582601,24.9136065"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "bf78bcb0",
+    "name": "Burgers'n'Fuel",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 59.324267199999994,
+    "lng": 18.070350899999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=59.324267199999994,18.070350899999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "7977aeb7",
+    "name": "Restaurant Ardbeg Embassy",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 59.323169199999995,
+    "lng": 18.0720089,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=59.323169199999995,18.0720089"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "80f8144a",
+    "name": "Stockholms Gästabud",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 59.3256847,
+    "lng": 18.0740121,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=59.3256847,18.0740121"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "0500a6f9",
+    "name": "Authentic Pub \"Bandiera\"",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.423194099999996,
+    "lng": 18.771775299999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.423194099999996,18.771775299999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "627ccffe",
+    "name": "Restobar Taraca",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.4272219,
+    "lng": 18.771835499999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.4272219,18.771835499999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "d51282f7",
+    "name": "Cheese Shop",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.4235384,
+    "lng": 18.777150799999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.4235384,18.777150799999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "c3f2c325",
+    "name": "Anjuna Ice Pops",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.499933299999995,
+    "lng": 19.052336099999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.499933299999995,19.052336099999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "e0f27fd7",
+    "name": "Chen's 面",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 48.2040205,
+    "lng": 16.371413999999998,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=48.2040205,16.371413999999998"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "f695b493",
+    "name": "Ruin Bars Budapest",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 47.497056799999996,
+    "lng": 19.0630076,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=47.497056799999996,19.0630076"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "a7db0d07",
+    "name": "ÅBEN Brewery, Tank Bar & Restaurant",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.668253,
+    "lng": 12.561568,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.668253,12.561568"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "4c550c04",
+    "name": "Skt. Peders Bageri",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.679144199999996,
+    "lng": 12.5692075,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.679144199999996,12.5692075"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "3adea713",
+    "name": "NORS Food & Drink",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.657781899999996,
+    "lng": 12.567081,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.657781899999996,12.567081"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "2e62b747",
+    "name": "Warpigs Brewpub",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.668502399999994,
+    "lng": 12.5599359,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.668502399999994,12.5599359"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "e659ec9a",
+    "name": "Restaurant Karla",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 55.6737554,
+    "lng": 12.5741632,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=55.6737554,12.5741632"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "fab3ed85",
+    "name": "Vatten Ramen Zeedijk",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 52.37569,
+    "lng": 4.900651,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=52.37569,4.900651"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "581e9cd2",
+    "name": "Café restaurant van Kerkwijk",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 52.3715404,
+    "lng": 4.8936845,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=52.3715404,4.8936845"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "18580da3",
+    "name": "The Big Bite",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.430721999999996,
+    "lng": 18.6958196,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.430721999999996,18.6958196"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "b08010d5",
+    "name": "Taste of Samarkand",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 52.5005666,
+    "lng": 13.4215696,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=52.5005666,13.4215696"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "70c809fa",
+    "name": "Cake",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 52.4966972,
+    "lng": 13.420457599999999,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=52.4966972,13.420457599999999"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "ddfce618",
+    "name": "YADA YADA breakfast club",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 52.511762999999995,
+    "lng": 13.413548299999999,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=52.511762999999995,13.413548299999999"
+    },
+    "image": null,
+    "image_alt": null
+  },
+  {
+    "id": "e3434b8c",
+    "name": "Babi - Resto Bar & Bakery",
+    "category": "eat",
+    "district": null,
+    "price": null,
+    "rating": null,
+    "short": "Место из личного списка.",
+    "notes": "",
+    "lat": 42.430038499999995,
+    "lng": 18.6962101,
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=42.430038499999995,18.6962101"
+    },
+    "image": null,
+    "image_alt": null
   }
 ]
