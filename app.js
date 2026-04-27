@@ -45,6 +45,13 @@ function escapeAttr(str) {
   return escapeHtml(str).replaceAll('"', "&quot;");
 }
 
+function getCoords(place) {
+  const lat = typeof place.lat === "number" ? place.lat : Number(place.lat);
+  const lng = typeof place.lng === "number" ? place.lng : Number(place.lng);
+  if (!Number.isFinite(lat) || !Number.isFinite(lng)) return null;
+  return [lat, lng];
+}
+
 function applyFilters() {
   const q = normalize(els.q.value);
   const category = els.category.value;
@@ -113,9 +120,10 @@ function renderMarkers() {
   state.markers.clear();
 
   for (const p of state.filtered) {
-    if (typeof p.lat !== "number" || typeof p.lng !== "number") continue;
+    const coords = getCoords(p);
+    if (!coords) continue;
 
-    const m = L.circleMarker([p.lat, p.lng], {
+    const m = L.circleMarker(coords, {
       radius: 7,
       weight: 2,
       opacity: 1,
@@ -133,8 +141,9 @@ function renderMarkers() {
 }
 
 function openPlace(p) {
-  if (state.map && typeof p.lat === "number" && typeof p.lng === "number") {
-    state.map.setView([p.lat, p.lng], Math.max(state.map.getZoom(), 14), { animate: true });
+  const coords = getCoords(p);
+  if (state.map && coords) {
+    state.map.setView(coords, Math.max(state.map.getZoom(), 14), { animate: true });
     const marker = state.markers.get(p.id);
     if (marker) marker.openTooltip();
   }
